@@ -13,6 +13,15 @@ main {
     flex: 1 0 auto;
 }
 
+a.white{
+    color: #fff;
+    background-color: transparent !important;
+}
+
+
+.heading > h1{
+    color: #fff !important;
+}
 
 /*//////*/
 
@@ -74,7 +83,7 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    /*font: 16px/26px Helvetica, Helvetica Neue, Arial;*/
 }
 
 .wrapper {
