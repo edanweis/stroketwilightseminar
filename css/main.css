@@ -7,19 +7,27 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-background: #101b2f;
-background: -moz-linear-gradient(top, #101b2f 0%, #764e74 49%, #ffd0a5 100%);
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#101b2f), color-stop(49%,#764e74), color-stop(100%,#ffd0a5));
-background: -webkit-linear-gradient(top, #101b2f 0%,#764e74 49%,#ffd0a5 100%);
-background: -o-linear-gradient(top, #101b2f 0%,#764e74 49%,#ffd0a5 100%);
-background: -ms-linear-gradient(top, #101b2f 0%,#764e74 49%,#ffd0a5 100%);
-background: linear-gradient(to bottom, #101b2f 0%,#764e74 49%,#ffd0a5 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101b2f', endColorstr='#ffd0a5',GradientType=0 );
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: #101b2f;
+    background: url(../img/bg_web2.png) -00px  no-repeat fixed, -moz-linear-gradient(top, #101b2f 0%, #101b2f 35%, #101b2f 35%, #764e74 71%, #ffa9a3 100%);
+    background: url(../img/bg_web2.png) -00px  no-repeat fixed, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#101b2f), color-stop(35%,#101b2f), color-stop(35%,#101b2f), color-stop(71%,#764e74), color-stop(100%,#ffa9a3));
+    background: url(../img/bg_web2.png) -00px  no-repeat fixed, -webkit-linear-gradient(top, #101b2f 0%,#101b2f 35%,#101b2f 35%,#764e74 71%,#ffa9a3 100%);
+    background: url(../img/bg_web2.png) -00px  no-repeat fixed, -o-linear-gradient(top, #101b2f 0%,#101b2f 35%,#101b2f 35%,#764e74 71%,#ffa9a3 100%);
+    background: url(../img/bg_web2.png) -00px  no-repeat fixed, -ms-linear-gradient(top, #101b2f 0%,#101b2f 35%,#101b2f 35%,#764e74 71%,#ffa9a3 100%);
+    background: url(../img/bg_web2.png) -00px  no-repeat fixed, linear-gradient(to bottom, #101b2f 0%,#101b2f 35%,#101b2f 35%,#764e74 71%,#ffa9a3 100%);
+    background: url(../img/bg_web2.png) -00px  no-repeat fixed, filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101b2f', endColorstr='#ffa9a3',GradientType=0 );
+    
+    
 }
 
 main {
     flex: 1 0 auto;
 }
+
 
 a.white{
     color: #fff;
@@ -27,21 +35,78 @@ a.white{
 }
 
 
+
 .heading > *{
     color: #fff !important;
-    margin: 1em auto 1em auto !important; 
+    /*margin: 1em auto 1em auto !important; */
 }
 
 .page-footer{
-    background: transparent !important;
+    background: #23242D !important;
 }
 
-h1, h5, h6, p, a{
+
+h1, h2, h3, h4 h5, h6, p, a{
     font-weight: 300 !important;
+    font-family: 'Roboto', Sans-serif;
 }
 
+.sv-logo{
+    width: 50%;
+    padding: 1em;    
 
-/*//////*/
+}
+
+.sf-logo{
+    /*float:right;*/
+    width: 40%;
+    padding:1em;
+}
+
+.footer-copyright{
+    background-color: #1B1C23 !important;
+}
+.heading-text{
+    font-weight: 300;
+    margin-bottom: 0.8em;
+}
+
+h1{
+    font-size: 8em;
+}
+
+p{
+    font-size: 1.4em;
+}
+
+.program{
+    color: #fff;
+    margin-top:2em;
+    margin-bottom:5em;
+}
+
+li.event{
+    margin-top: 1em;
+}
+.bottom-text{
+    color: #B08AA7;
+    /*margin-top: 3em;;*/
+}
+
+.page-footer{
+    padding-top:3em !important;
+
+}
+
+.page-footer .container{
+    padding-bottom: 3em !important
+}
+
+.credits{
+    
+
+}
+/*////////////////////////////*/
 
 
 html {
@@ -216,6 +281,18 @@ nav a:hover {
    Media Queries
    ========================================================================== */
 
+@media only screen and (max-width: 480px) {
+    .heading-text{
+        font-size: 4em;
+        line-height: 1em;
+        letter-spacing: -0.04em;
+    }
+
+    body{
+        background-position:  90%;
+    }
+}
+
 @media only screen and (min-width: 480px) {
 
 /* ====================
@@ -238,6 +315,20 @@ nav a:hover {
         margin-right: 0;
     }
 
+    .heading-text{
+        font-size: 4em;
+        line-height: 1em;
+        letter-spacing: -0.04em;
+    }
+
+    body{
+        background-position:  90%;
+    }
+
+    .event-details h3{
+        font-size: 2em;
+    }
+
 /* ========================
     INTERMEDIATE: IE Fixes
    ======================== */
@@ -256,6 +347,20 @@ nav a:hover {
 /* ====================
     WIDE: CSS3 Effects
    ==================== */
+
+    .heading-text{
+        font-size: 7em;
+        line-height: 1em;
+        letter-spacing: -0.02em;
+    }
+
+    .event-details h3{
+        font-size: 3em;
+    }
+
+    body{
+        background-position:  120%;
+    }
 
     .header-container,
     .main aside {
@@ -297,6 +402,16 @@ nav a:hover {
 /* ===============
     Maximal Width
    =============== */
+
+   .heading-text{
+    font-size: 7em;
+    line-height: 1.1em;
+    letter-spacing: -0.02em;
+    }
+
+    body{
+        background-position:  -800px;
+    }
 
     .wrapper {
         width: 1026px; /* 1140px - 10% for margins */
