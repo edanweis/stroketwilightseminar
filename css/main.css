@@ -27,10 +27,12 @@ main {
 }
 
 
-.roboto{
+p, h1, h2, h3, h4, h5, h6, a, li{
     font-family: 'Roboto' !important;
     font-weight: 300 !important;
 }
+
+
 a.white{
     color: #fff;
     background-color: transparent !important;
@@ -50,7 +52,7 @@ a.white{
 
 h1, h2, h3, h4 h5, h6, p, a{
     font-weight: 300 !important;
-    font-family: 'Roboto', Sans-serif;
+    font-family: 'Roboto' !important;
 }
 
 .sv-logo{
@@ -102,8 +104,6 @@ p{
 
 .location-desc{
     font-size: 1.2em;
-    font-family: 'Roboto';
-    font-weight: 300;
 }
 .event-date h3{
     font-size: 2.5em !important;
@@ -114,8 +114,6 @@ p{
     color: #fff;
     margin-top:2em;
     margin-bottom:5em;
-    font-family: 'Roboto';
-    font-weight: 300;
 }
 
 li.event{
@@ -142,6 +140,12 @@ li.event{
 
 .credits a:hover{
     color: #fff;
+}
+
+.sponsor-logos img{
+    height: 9em !important;
+    width: auto;
+    /*background-color: red;*/
 }
 /*///////////////////////////////////////*/
 
