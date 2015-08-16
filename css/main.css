@@ -58,26 +58,28 @@ h1, h2, h3, h4 h5, h6, p, a{
 .sv-logo-lg{
     height: 9em !important;
     width: auto;
-    padding: 1em;    
+    padding: 1em !important;    
     float: left;
+    margin-right: 3em;
+    margin-left:-1em;
 
 }
 
 .sf-logo-lg{
     height: 9em !important;
     width: auto;
-    padding:1em;
+    padding: 1em !important;
 }
 
 .sv-logo-sm{
-    height: 3em !important;
+    height: 8em !important;
     width: auto;
     padding: 1em;    
     float: left;
 }
 
 .sf-logo-sm{
-    height: 3em !important;
+    height: 8em !important;
     width: auto;
     padding:1em;   
 }
