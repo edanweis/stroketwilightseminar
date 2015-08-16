@@ -20,8 +20,6 @@ body {
     background: url(../img/bg_web2.png) -00px  no-repeat fixed, -ms-linear-gradient(top, #101b2f 0%,#101b2f 35%,#101b2f 35%,#764e74 71%,#ffa9a3 100%);
     background: url(../img/bg_web2.png) -00px  no-repeat fixed, linear-gradient(to bottom, #101b2f 0%,#101b2f 35%,#101b2f 35%,#764e74 71%,#ffa9a3 100%);
     background: url(../img/bg_web2.png) -00px  no-repeat fixed, filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101b2f', endColorstr='#ffa9a3',GradientType=0 );
-    
-    
 }
 
 main {
@@ -79,10 +77,41 @@ p{
     font-size: 1.4em;
 }
 
+.map-icon{
+    color:#4887E1;
+    height:1.3em;
+    background-color: transparent;
+    float:left;
+    padding:0 .3em 0 0;
+    font-size: 3em;
+
+}
+
+.map-icon:hover{
+    color:#66A5FF;
+}
+
+.location{
+    height:1em;
+    margin: 5em auto;
+}
+
+.location-desc{
+    font-size: 1.2em;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+.event-date h3{
+    font-size: 2.5em !important;
+    line-height: 1.4em;
+}
+
 .program{
     color: #fff;
     margin-top:2em;
     margin-bottom:5em;
+    font-family: 'Roboto';
+    font-weight: 300;
 }
 
 li.event{
@@ -94,7 +123,7 @@ li.event{
 }
 
 .page-footer{
-    padding-top:3em !important;
+    padding-top:3em !important; 
 
 }
 
@@ -102,11 +131,15 @@ li.event{
     padding-bottom: 3em !important
 }
 
-.credits{
+.credits, .credits a{
+    color: #6885C3;
     
-
 }
-/*////////////////////////////*/
+
+.credits a:hover{
+    color: #fff;
+}
+/*///////////////////////////////////////*/
 
 
 html {
