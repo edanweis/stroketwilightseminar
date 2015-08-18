@@ -1,0 +1,1421 @@
+
+
+Sun Aug 16 23:19:30 2015
+Command line: TestDisk
+
+TestDisk 6.14, Data Recovery Utility, July 2013
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Linux, kernel 3.16.0-45-generic (#60~14.04.1-Ubuntu SMP Fri Jul 24 21:16:23 UTC 2015) x86_64
+Compiler: GCC 4.8
+Compilation date: 2013-10-29T01:29:29
+ext2fs lib: 1.42.9, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none
+/dev/sda: LBA, HPA, LBA48, DCO support
+/dev/sda: size       78165360 sectors
+/dev/sda: user_max   78165360 sectors
+/dev/sda: native_max 78165360 sectors
+/dev/sda: dco        78165360 sectors
+/dev/sdb: LBA, HPA, LBA48, DCO support
+/dev/sdb: size       468862128 sectors
+/dev/sdb: user_max   468862128 sectors
+/dev/sdb: native_max 468862128 sectors
+/dev/sdb: dco        468862128 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 1 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 40 GB / 37 GiB - CHS 4865 255 63, sector size=512 - INTEL SSDSA2M040G2GC, S/N:CVGB0026027U040GGN, FW:2CV102HD
+Disk /dev/sdb - 240 GB / 223 GiB - CHS 29185 255 63, sector size=512 - SATA SSD, S/N:D45B073204BD00000174, FW:S8FM04.6
+Disk /dev/sdc - 750 GB / 698 GiB - CHS 91201 255 63, sector size=512 - Samsung S2 Portable, FW:2AR1
+
+Partition table type (auto): Intel
+Disk /dev/sdc - 750 GB / 698 GiB - Samsung S2 Portable
+Partition table type: Intel
+
+Interface Advanced
+Geometry from i386 MBR: head=255 sector=63
+NTFS at 0/1/2
+ 1 * HPFS - NTFS              0   1  2 91200 254 63 1465144001 [Main_return to 0414786154]
+     NTFS, blocksize=4096, 750 GB / 698 GiB
+
+Analyse Disk /dev/sdc - 750 GB / 698 GiB - CHS 91201 255 63
+Geometry from i386 MBR: head=255 sector=63
+NTFS at 0/1/2
+Current partition structure:
+ 1 * HPFS - NTFS              0   1  2 91200 254 63 1465144001 [Main_return to 0414786154]
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+Failed to read index block: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+Failed to read index block: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+
+search_part()
+Disk /dev/sdc - 750 GB / 698 GiB - CHS 91201 255 63
+NTFS at 0/1/2
+filesystem size           1465144001
+sectors_per_cluster       8
+mft_lcn                   786432
+mftmirr_lcn               2
+clusters_per_mft_record   -10
+clusters_per_index_record 1
+     HPFS - NTFS              0   1  2 91200 254 63 1465144001 [Main_return to 0414786154]
+     NTFS, blocksize=4096, 750 GB / 698 GiB
+
+Results
+   L HPFS - NTFS              0   1  2 91200 254 63 1465144001 [Main_return to 0414786154]
+     NTFS, blocksize=4096, 750 GB / 698 GiB
+ntfs_device_testdisk_io_ioctl() unimplemented
+NTFS Volume is dirty.
+
+
+dir_partition inode=5
+   L HPFS - NTFS              0   1  2 91200 254 63 1465144001 [Main_return to 0414786154]
+     NTFS, blocksize=4096, 750 GB / 698 GiB
+Directory /
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 .
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 ..
+    3958 dr-xr-xr-x     0      0         0 18-Jun-2015 03:00 $RECYCLE.BIN
+   63131 dr-xr-xr-x     0      0         0 17-Jul-2015 00:46 AILA
+   60377 dr-xr-xr-x     0      0         0 21-Jun-2014 16:28 BOOKS
+    5025 dr-xr-xr-x     0      0         0 16-Jan-2015 15:28 IMAGES
+   35658 dr-xr-xr-x     0      0         0 25-Mar-2015 22:10 MOVIES
+   22287 dr-xr-xr-x     0      0         0 21-Jun-2014 16:15 MUSIC
+   21190 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 PROJECTS
+   21997 dr-xr-xr-x     0      0         0 30-Jan-2014 13:48 System Volume Information
+  116783 dr-xr-xr-x     0      0         0 14-Jul-2015 22:35 TIDY
+   68634 dr-xr-xr-x     0      0         0 14-Jun-2015 17:20 TOOLS
+    8915 dr-xr-xr-x     0      0         0 19-Aug-2014 18:29 UNI ARCHIVES
+      67 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 WORK_CV
+   63313 dr-xr-xr-x     0      0         0 17-Jul-2015 10:23 work back up
+
+dir_partition inode=67
+   L HPFS - NTFS              0   1  2 91200 254 63 1465144001 [Main_return to 0414786154]
+     NTFS, blocksize=4096, 750 GB / 698 GiB
+Directory /WORK_CV
+      67 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 .
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 ..
+    8004 dr-xr-xr-x     0      0         0 14-Jun-2015 17:12 APPLICATIONS
+    8002 dr-xr-xr-x     0      0         0 18-Aug-2014 12:33 CONTRACTS
+  116816 -r--r--r--     0      0 342769261  2-Feb-2015 01:09 V1-0001_XimeGraduation.mov
+file_pread(6,16,buffer,515316712(32076/250/23)) read err: Partial read
+file_pread(6,16,buffer,1261367248(78516/122/23)) read err: Input/output error
+file_pread(6,1,buffer,1261367248(78516/122/23)) read err: Input/output error
+ntfs_readdir failed for cluster 110246
+file_pread(6,16,buffer,516027608(32121/59/27)) read err: Input/output error
+file_pread(6,1,buffer,516027608(32121/59/27)) read err: Input/output error
+ntfs_readdir failed for cluster 8152
+file_pread(6,16,buffer,1160535128(72239/247/33)) read err: Partial read
+ERROR: Couldn't read filefile_pread(6,16,buffer,1160755328(72253/172/48)) read err: Partial read
+ERROR: Couldn't read filefile_pread(6,16,buffer,1160922528(72264/21/46)) read err: Input/output error
+file_pread(6,1,buffer,1160922528(72264/21/46)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,1160969896(72267/8/38)) read err: Partial read
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161001016(72268/247/36)) read err: Input/output error
+file_pread(6,1,buffer,1161001016(72268/247/36)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161053672(72272/63/24)) read err: Partial read
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161077360(72273/184/24)) read err: Partial read
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161117304(72276/53/26)) read err: Input/output error
+file_pread(6,1,buffer,1161117304(72276/53/26)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161160776(72278/233/28)) read err: Partial read
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161165712(72279/56/50)) read err: Partial read
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161173144(72279/174/48)) read err: Input/ountfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+tput error
+file_pread(6,1,buffer,1161173144(72279/174/48)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161174912(72279/202/52)) read err: Input/output error
+file_pread(6,1,buffer,1161174912(72279/202/52)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,1160457016(72235/27/41)) read err: Partial read
+ERROR: Couldn't read filefile_pread(6,16,buffer,1160551752(72241/1/25)) read err: Partial read
+ERROR: Couldn't read filefile_pread(6,16,buffer,1160658824(72247/170/60)) read err: Partial read
+ERROR: Couldn't read filefile_pread(6,16,buffer,1160707968(72250/186/1)) read err: Input/output error
+file_pread(6,1,buffer,1160707968(72250/186/1)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161511432(72300/189/26)) read err: Input/output error
+file_pread(6,1,buffer,1161511432(72300/189/26)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161514960(72300/245/26)) read err: Partial read
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161516728(72301/18/30)) read err: Partial read
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161531224(72301/248/36)) read err: Input/output error
+file_pread(6,1,buffer,1161531224(72301/248/36)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161520264(72301/74/38)) read err: Input/output error
+file_pread(6,1,buffer,1161520264(72301/74/38)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161536880(72302/83/22)) read err: Partial read
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161178448(72280/3/60)) read err: Input/output error
+file_pread(6,1,buffer,1161178448(72280/3/60)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161227576(72283/18/48)) read err: Partial read
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161262216(72285/58/38)) read err: Partial read
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161365792(72291/172/42)) read err: Input/output error
+file_pread(6,1,buffer,1161365792(72291/172/42)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161298624(72287/126/32)) read err: Partial read
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161414920(72294/187/30)) read err: Partial read
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161462296(72297/174/30)) read err: Input/output error
+file_pread(6,1,buffer,1161462296(72297/174/30)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161543944(72302/195/30)) read err: Partial read
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161794920(72318/99/14)) read err: Input/output error
+file_pread(6,1,buffer,1161794920(72318/99/14)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161798808(72318/160/59)) read err: Partial read
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161813304(72319/136/2)) read err: Input/output error
+file_pread(6,1,buffer,1161813304(72319/136/2)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161824264(72320/54/63)) read err: Input/output error
+file_pread(6,1,buffer,1161824264(72320/54/63)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161831320(72320/166/63)) read err: Partial read
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161833096(72320/195/12)) read err: Input/output error
+file_pread(6,1,buffer,1161833096(72320/195/12)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161844056(72321/114/10)) read err: Input/output error
+file_pread(6,1,buffer,1161844056(72321/114/10)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161856768(72322/60/59)) read err: Partial read
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161867728(72322/234/57)) read err: Partial read
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161807632(72319/45/63)) read err: Partial read
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161611456(72306/247/6)) read err: Partial read
+ERROR: Couldn't read filefile_pread(6,16,buntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ffer,1161613232(72307/20/18)) read err: Input/output error
+file_pread(6,1,buffer,1161613232(72307/20/18)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161736952(72314/199/6)) read err: Input/output error
+file_pread(6,1,buffer,1161736952(72314/199/6)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161616752(72307/76/10)) read err: Partial read
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161664120(72310/63/2)) read err: Partial read
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161700544(72312/131/12)) read err: Input/output error
+file_pread(6,1,buffer,1161700544(72312/131/12)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161878696(72323/153/63)) read err: Input/output error
+file_pread(6,1,buffer,1161878696(72323/153/63)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,1161945840(72327/199/49)) read err: Partial read
+ERROR: Couldn't read filefile_pread(6,16,buffer,1162151576(72340/150/27)) read err: Partial read
+ERROR: Couldn't read filefile_pread(6,16,buffer,1162402552(72356/54/11)) read err: Partial read
+ERROR: Couldn't read fileDirectory /
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 .
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 ..
+    3958 dr-xr-xr-x     0      0         0 18-Jun-2015 03:00 $RECYCLE.BIN
+   63131 dr-xr-xr-x     0      0         0 17-Jul-2015 00:46 AILA
+   60377 dr-xr-xr-x     0      0         0 21-Jun-2014 16:28 BOOKS
+    5025 dr-xr-xr-x     0      0         0 16-Jan-2015 15:28 IMAGES
+   35658 dr-xr-xr-x     0      0         0 25-Mar-2015 22:10 MOVIES
+   22287 dr-xr-xr-x     0      0         0 21-Jun-2014 16:15 MUSIC
+   21190 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 PROJECTS
+   21997 dr-xr-xr-x     0      0         0 30-Jan-2014 13:48 System Volume Information
+  116783 dr-xr-xr-x     0      0         0 14-Jul-2015 22:35 TIDY
+   68634 dr-xr-xr-x     0      0         0 14-Jun-2015 17:20 TOOLS
+    8915 dr-xr-xr-x     0      0         0 19-Aug-2014 18:29 UNI ARCHIVES
+      67 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 WORK_CV
+   63313 dr-xr-xr-x     0      0         0 17-Jul-2015 10:23 work back up
+
+dir_partition inode=8915
+   L HPFS - NTFS              0   1  2 91200 254 63 1465144001 [Main_return to 0414786154]
+     NTFS, blocksize=4096, 750 GB / 698 GiB
+Directory /UNI ARCHIVES
+    8915 dr-xr-xr-x     0      0         0 19-Aug-2014 18:29 .
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 ..
+    8924 dr-xr-xr-x     0      0         0 27-Jun-2013 14:35 Landscape Architecture 2010 S2
+   10293 dr-xr-xr-x     0      0         0 20-Feb-2013 19:56 Landscape Architecture 2011 S1
+   11918 dr-xr-xr-x     0      0         0  8-Dec-2011 23:09 Landscape Architecture 2011 S2
+   16050 dr-xr-xr-x     0      0         0 11-Jun-2012 14:53 Landscape Architecture 2012 S1
+   19265 dr-xr-xr-x     0      0         0 29-Mar-2013 16:31 Landscape Architecture 2012 S2
+    3947 dr-xr-xr-x     0      0         0  1-Jul-2014 22:29 Landscape Architecture 2013 S1
+   35661 dr-xr-xr-x     0      0         0  4-Feb-2014 15:05 Landscape Architecture 2013 S2
+   67664 dr-xr-xr-x     0      0         0 21-Jun-2014 15:48 Landscape Architecture 2014 S1
+Directory /
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 .
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 ..
+    3958 dr-xr-xr-x     0      0         0 18-Jun-2015 03:00 $RECYCLE.BIN
+   63131 dr-xr-xr-x     0      0         0 17-Jul-2015 00:46 AILA
+   60377 dr-xr-xr-x     0      0         0 21-Jun-2014 16:28 BOOKS
+    5025 dr-xr-xr-x     0      0         0 16-Jan-2015 15:28 IMAGES
+   35658 dr-xr-xr-x     0      0         0 25-Mar-2015 22:10 MOVIES
+   22287 dr-xr-xr-x     0      0         0 21-Jun-2014 16:15 MUSIC
+   21190 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 PROJECTS
+   21997 dr-xr-xr-x     0      0         0 30-Jan-2014 13:48 System Volume Information
+  116783 dr-xr-xr-x     0      0         0 14-Jul-2015 22:35 TIDY
+   68634 dr-xr-xr-x     0      0         0 14-Jun-2015 17:20 TOOLS
+    8915 dr-xr-xr-x     0      0         0 19-Aug-2014 18:29 UNI ARCHIVES
+      67 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 WORK_CV
+   63313 dr-xr-xr-x     0      0         0 17-Jul-2015 10:23 work back up
+
+dir_partition inode=63131
+   L HPFS - NTFS              0   1  2 91200 254 63 1465144001 [Main_return to 0414786154]
+     NTFS, blocksize=4096, 750 GB / 698 GiB
+Directory /AILA
+   63131 dr-xr-xr-x     0      0         0 17-Jul-2015 00:46 .
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 ..
+   63264 dr-xr-xr-x     0      0         0  5-Jul-2015 21:35 AILA Fresh
+   63290 dr-xr-xr-x     0      0         0 14-Jul-2015 22:12 AILA Fresh melb uni_v2 Folder
+   62548 dr-xr-xr-x     0      0         0 17-Jul-2015 00:47 xime
+   63261 -r--r--r--     0      0    100459  8-Jul-2015 17:19 10421433_10200451323122409_7112337848672210045_n.jpg
+   63262 -r--r--r--     0      0     99548  8-Jul-2015 17:21 10733970_783379811722079_6151756771491522968_n.jpg
+   63263 -r--r--r--     0      0    513186  8-Jul-2015 17:19 11141136_1652697191634019_1041466200371526911_n.png
+   63289 -r--r--r--     0      0   1505619 11-May-2015 23:59 AILA FRESH melb uni_MAY 2015.pdf
+   63300 -r--r--r--     0      0   4911104 14-Jul-2015 22:11 AILA Fresh melb uni_v2.indd
+   63302 -r--r--r--     0      0     13355 11-May-2015 21:46 AILA-logo-inline-black.gif
+   63304 -r--r--r--     0      0   1334044 26-May-2015 19:23 FRESH report May.pptx
+   63305 -r--r--r--     0      0  22234515 14-Jul-2015 22:35 Geo cache.ai
+   63306 -r--r--r--     0      0    676753 19-Apr-2015 21:48 Geo cache.pdf
+   63309 -r--r--r--     0      0    203776 14-Jul-2015 22:13 Thumbs.db
+   63301 -r--r--r--     0      0   1225466 11-May-2015 21:36 aila landing page - 01.PNG
+   63303 -r--r--r--     0      0    359319 11-May-2015 21:44 aila_fresh02.jpg
+   63307 -r--r--r--     0      0 267218944 12-May-2015 00:08 melb uni.indd
+   63310 -r--r--r--     0      0     25841 11-May-2015 23:57 wAAAEZ0RVh0VGh1bWI6OlVSSQBmaWxlOi8vL3Zhci9jcGFuZWwvdXNlcmhvbWVzL2NwYW5lbGhvcmRlL2NhY2hlL2ltZ1VaM2lOTFswXUPKDdQAAAAASUVORK5CYII=.png
+Directory /
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 .
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 ..
+    3958 dr-xr-xr-x     0      0         0 18-Jun-2015 03:00 $RECYCLE.BIN
+   63131 dr-xr-xr-x     0      0         0 17-Jul-2015 00:46 AILA
+   60377 dr-xr-xr-x     0      0         0 21-Jun-2014 16:28 BOOKS
+    5025 dr-xr-xr-x     0      0         0 16-Jan-2015 15:28 IMAGES
+   35658 dr-xr-xr-x     0      0         0 25-Mar-2015 22:10 MOVIES
+   22287 dr-xr-xr-x     0      0         0 21-Jun-2014 16:15 MUSIC
+   21190 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 PROJECTS
+   21997 dr-xr-xr-x     0      0         0 30-Jan-2014 13:48 System Volume Information
+  116783 dr-xr-xr-x     0      0         0 14-Jul-2015 22:35 TIDY
+   68634 dr-xr-xr-x     0      0         0 14-Jun-2015 17:20 TOOLS
+    8915 dr-xr-xr-x     0      0         0 19-Aug-2014 18:29 UNI ARCHIVES
+      67 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 WORK_CV
+   63313 dr-xr-xr-x     0      0         0 17-Jul-2015 10:23 work back up
+
+dir_partition inode=63131
+   L HPFS - NTFS              0   1  2 91200 254 63 1465144001 [Main_return to 0414786154]
+     NTFS, blocksize=4096, 750 GB / 698 GiB
+Directory /AILA
+   63131 dr-xr-xr-x     0      0         0 17-Jul-2015 00:46 .
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 ..
+   63264 dr-xr-xr-x     0      0         0  5-Jul-2015 21:35 AILA Fresh
+   63290 dr-xr-xr-x     0      0         0 14-Jul-2015 22:12 AILA Fresh melb uni_v2 Folder
+   62548 dr-xr-xr-x     0      0         0 17-Jul-2015 00:47 xime
+   63261 -r--r--r--     0      0    100459  8-Jul-2015 17:19 10421433_10200451323122409_7112337848672210045_n.jpg
+   63262 -r--r--r--     0      0     99548  8-Jul-2015 17:21 10733970_783379811722079_6151756771491522968_n.jpg
+   63263 -r--r--r--     0      0    513186  8-Jul-2015 17:19 11141136_1652697191634019_1041466200371526911_n.png
+   63289 -r--r--r--     0      0   1505619 11-May-2015 23:59 AILA FRESH melb uni_MAY 2015.pdf
+   63300 -r--r--r--     0      0   4911104 14-Jul-2015 22:11 AILA Fresh melb uni_v2.indd
+   63302 -r--r--r--     0      0     13355 11-May-2015 21:46 AILA-logo-inline-black.gif
+   63304 -r--r--r--     0      0   1334044 26-May-2015 19:23 FRESH report May.pptx
+   63305 -r--r--r--     0      0  22234515 14-Jul-2015 22:35 Geo cache.ai
+   63306 -r--r--r--     0      0    676753 19-Apr-2015 21:48 Geo cache.pdf
+   63309 -r--r--r--     0      0    203776 14-Jul-2015 22:13 Thumbs.db
+   63301 -r--r--r--     0      0   1225466 11-May-2015 21:36 aila landing page - 01.PNG
+   63303 -r--r--r--     0      0    359319 11-May-2015 21:44 aila_fresh02.jpg
+   63307 -r--r--r--     0      0 267218944 12-May-2015 00:08 melb uni.indd
+   63310 -r--r--r--     0      0     25841 11-May-2015 23:57 wAAAEZ0RVh0VGh1bWI6OlVSSQBmaWxlOi8vL3Zhci9jcGFuZWwvdXNlcmhvbWVzL2NwYW5lbGhvcmRlL2NhY2hlL2ltZ1VaM2lOTFswXUPKDdQAAAAASUVORK5CYII=.png
+Directory /
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 .
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 ..
+    3958 dr-xr-xr-x     0      0         0 18-Jun-2015 03:00 $RECYCLE.BIN
+   63131 dr-xr-xr-x     0      0         0 17-Jul-2015 00:46 AILA
+   60377 dr-xr-xr-x     0      0         0 21-Jun-2014 16:28 BOOKS
+    5025 dr-xr-xr-x     0      0         0 16-Jan-2015 15:28 IMAGES
+   35658 dr-xr-xr-x     0      0         0 25-Mar-2015 22:10 MOVIES
+   22287 dr-xr-xr-x     0      0         0 21-Jun-2014 16:15 MUSIC
+   21190 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 PROJECTS
+   21997 dr-xr-xr-x     0      0         0 30-Jan-2014 13:48 System Volume Information
+  116783 dr-xr-xr-x     0      0         0 14-Jul-2015 22:35 TIDY
+   68634 dr-xr-xr-x     0      0         0 14-Jun-2015 17:20 TOOLS
+    8915 dr-xr-xr-x     0      0         0 19-Aug-2014 18:29 UNI ARCHIVES
+      67 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 WORK_CV
+   63313 dr-xr-xr-x     0      0         0 17-Jul-2015 10:23 work back up
+
+dir_partition inode=60377
+   L HPFS - NTFS              0   1  2 91200 254 63 1465144001 [Main_return to 0414786154]
+     NTFS, blocksize=4096, 750 GB / 698 GiB
+Directory /BOOKS
+   60377 dr-xr-xr-x     0      0         0 21-Jun-2014 16:28 .
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 ..
+   60755 dr-xr-xr-x     0      0         0  1-Jul-2013 12:25 CUP
+   39122 dr-xr-xr-x     0      0         0 27-Jun-2013 18:00 FF Chartwell (fonts)
+   39488 dr-xr-xr-x     0      0         0 27-Jun-2013 18:00 Noam Chomsky
+   60390 dr-xr-xr-x     0      0         0  1-Jul-2013 12:10 academic papers
+   60654 dr-xr-xr-x     0      0         0 27-Jun-2013 18:00 architecture Books
+   39133 dr-xr-xr-x     0      0         0 27-Jun-2013 18:00 geometry
+   39450 dr-xr-xr-x     0      0         0 27-Jun-2013 18:00 islamic geometry
+   39455 dr-xr-xr-x     0      0         0 27-Jun-2013 18:00 maps
+   39521 dr-xr-xr-x     0      0         0 27-Jun-2013 18:00 personal reading
+   39627 dr-xr-xr-x     0      0         0 27-Jun-2013 18:00 philosophy encylopedia
+   39634 dr-xr-xr-x     0      0         0 27-Jun-2013 18:00 studio books
+   60378 -r--r--r--     0      0    757195 30-Apr-2013 00:26 03Chapter2.pdf
+   60379 -r--r--r--     0      0    167938 15-May-2013 10:50 09640568%2E2012%2E689617.pdf
+   60380 -r--r--r--     0      0 199230109 16-Jul-2010 10:59 100 Years of Fashion Illustration.pdf
+   60381 -r--r--r--     0      0   6224037 26-Apr-2013 03:48 14965118.pdf
+   60382 -r--r--r--     0      0   1840155  4-Nov-2009 17:27 1921644095 675 Delicious Cheese1.pdf
+   60383 -r--r--r--     0      0  12302302 25-Apr-2013 23:35 55652783 (1).pdf
+   60384 -r--r--r--     0      0  12302302 26-Apr-2013 03:41 55652783 (2).pdf
+   60385 -r--r--r--     0      0  12302302 24-Apr-2013 17:45 55652783.pdf
+   60386 -r--r--r--     0      0   4930668  9-May-2013 20:03 9783034611732.128.pdf
+   60387 -r--r--r--     0      0  35659132  9-May-2013 20:05 9783034611732.18.pdf
+   60388 -r--r--r--     0      0  10746491  9-May-2013 20:02 9783034611732.240.pdf
+   60389 -r--r--r--     0      0   3201000  9-May-2013 19:53 9783034611732.28.pdf
+   60749 -r--r--r--     0      0   4897032 10-Nov-2012 18:08 Brian_Suda-A_Practical_Guide_to_Designing_with_Data-Mark_Boulton_Design_Ltd(2010).pdf
+   60750 -r--r--r--     0      0     87617 20-Jun-2013 16:42 Brunt-Dennison-Simpson_Chapter (1).pdf
+   60751 -r--r--r--     0      0     87617 20-Jun-2013 15:00 Brunt-Dennison-Simpson_Chapter.pdf
+   60754 -r--r--r--     0      0   3137250  7-Feb-2011 19:43 Cheese-Making-Made-Easy.pdf
+   39117 -r--r--r--     0      0  11641961  8-Aug-2010 17:30 Design Activism - Bueatiful strangeness for a sustainable world.pdf
+    3987 -r--r--r--     0      0    106496  8-Aug-2013 00:08 Donald A. Norman-The Invisible Computer_ Why Good Products Can Fail, the Personal Computer Is So Complex, and Information Appliances Are the Solution-The MIT Press (1998).djvu
+    3985 -r--r--r--     0      0   3387314  7-Aug-2013 15:31 Donald Norman-The Design of Everyday Things-Doubleday Business (1990).djvu
+   39121 -r--r--r--     0      0   4796500 12-Sep-2012 08:29 Exported - William+James_Pragmatism - 20120402_133727.pdf
+   36391 -r--r--r--     0      0  53661294 14-Apr-2013 23:03 Francis D. K. Ching Architecture Form, Space, and Order, 3rd Edition    2007.pdf
+   39454 -r--r--r--     0      0  17618855  3-Sep-2008 19:52 Ken Smith Landscape Architects Urban Projects A Source Book in Landscape Architecture (Source Books in Landscape Architecture).pdf
+   39486 -r--r--r--     0      0     38119 30-Jan-2013 19:32 MICHEL DESVIGNE.pdf
+   39487 -r--r--r--     0      0       351 16-Aug-2012 14:12 Network - Shortcut.lnk
+   39633 -r--r--r--     0      0   9007011 13-Oct-2011 15:41 SiteAnalysisandInventoryReport.pdf
+   39669 -r--r--r--     0      0   5528896 13-Jun-2011 23:28 That faint semblance of Eden - problems with landscape design history.pdf
+   39670 -r--r--r--     0      0   1310185 10-Feb-2013 14:02 Towards Inclusive Cities.pdf
+   60747 -r--r--r--     0      0   8611038 21-Nov-2012 20:51 ayres_mla_chapters_4_to_6.pdf
+   60748 -r--r--r--     0      0  40291435 12-May-2013 10:21 book.zip
+   60752 -r--r--r--     0      0    694400 21-Jun-2013 22:41 chapter2-8_urban.pdf
+   60753 -r--r--r--     0      0  97980644  8-May-2010 08:40 cheese history.pdf
+   39118 -r--r--r--     0      0   1605149 10-Nov-2012 12:18 designplaygrounds.pdf
+   39119 -r--r--r--     0      0        67 21-Jun-2014 15:47 desktop.ini
+   39120 -r--r--r--     0      0    192105  7-Oct-2012 11:25 douglas_meehan_resume.pdf
+Directory /
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 .
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 ..
+    3958 dr-xr-xr-x     0      0         0 18-Jun-2015 03:00 $RECYCLE.BIN
+   63131 dr-xr-xr-x     0      0         0 17-Jul-2015 00:46 AILA
+   60377 dr-xr-xr-x     0      0         0 21-Jun-2014 16:28 BOOKS
+    5025 dr-xr-xr-x     0      0         0 16-Jan-2015 15:28 IMAGES
+   35658 dr-xr-xr-x     0      0         0 25-Mar-2015 22:10 MOVIES
+   22287 dr-xr-xr-x     0      0         0 21-Jun-2014 16:15 MUSIC
+   21190 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 PROJECTS
+   21997 dr-xr-xr-x     0      0         0 30-Jan-2014 13:48 System Volume Information
+  116783 dr-xr-xr-x     0      0         0 14-Jul-2015 22:35 TIDY
+   68634 dr-xr-xr-x     0      0         0 14-Jun-2015 17:20 TOOLS
+    8915 dr-xr-xr-x     0      0         0 19-Aug-2014 18:29 UNI ARCHIVES
+      67 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 WORK_CV
+   63313 dr-xr-xr-x     0      0         0 17-Jul-2015 10:23 work back up
+
+dir_partition inode=35658
+   L HPFS - NTFS              0   1  2 91200 254 63 1465144001 [Main_return to 0414786154]
+     NTFS, blocksize=4096, 750 GB / 698 GiB
+Directory /MOVIES
+   35658 dr-xr-xr-x     0      0         0 25-Mar-2015 22:10 .
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 ..
+   35304 dr-xr-xr-x     0      0         0  2-Aug-2013 19:25 First.Australians
+    3988 dr-xr-xr-x     0      0         0 21-Jun-2014 16:29 TALKS
+Directory /
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 .
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 ..
+    3958 dr-xr-xr-x     0      0         0 18-Jun-2015 03:00 $RECYCLE.BIN
+   63131 dr-xr-xr-x     0      0         0 17-Jul-2015 00:46 AILA
+   60377 dr-xr-xr-x     0      0         0 21-Jun-2014 16:28 BOOKS
+    5025 dr-xr-xr-x     0      0         0 16-Jan-2015 15:28 IMAGES
+   35658 dr-xr-xr-x     0      0         0 25-Mar-2015 22:10 MOVIES
+   22287 dr-xr-xr-x     0      0         0 21-Jun-2014 16:15 MUSIC
+   21190 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 PROJECTS
+   21997 dr-xr-xr-x     0      0         0 30-Jan-2014 13:48 System Volume Information
+  116783 dr-xr-xr-x     0      0         0 14-Jul-2015 22:35 TIDY
+   68634 dr-xr-xr-x     0      0         0 14-Jun-2015 17:20 TOOLS
+    8915 dr-xr-xr-x     0      0         0 19-Aug-2014 18:29 UNI ARCHIVES
+      67 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 WORK_CV
+   63313 dr-xr-xr-x     0      0         0 17-Jul-2015 10:23 work back up
+
+dir_partition inode=22287
+   L HPFS - NTFS              0   1  2 91200 254 63 1465144001 [Main_return to 0414786154]
+     NTFS, blocksize=4096, 750 GB / 698 GiB
+Directory /MUSIC
+   22287 dr-xr-xr-x     0      0         0 21-Jun-2014 16:15 .
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 ..
+   34716 dr-xr-xr-x     0      0         0 14-Aug-2012 17:45 1970 - The Topography of the Lungs
+    4012 dr-xr-xr-x     0      0         0  1-Nov-2013 18:26 A Tribe Called Quest
+   34729 dr-xr-xr-x     0      0         0 16-Oct-2013 11:33 Aesop
+    4028 dr-xr-xr-x     0      0         0 29-Jun-2012 11:23 Air
+   34756 dr-xr-xr-x     0      0         0 10-Dec-2011 19:52 Armageddon-soundtrack
+   34734 dr-xr-xr-x     0      0         0 16-Oct-2013 11:35 B.B King
+   34730 dr-xr-xr-x     0      0         0 16-Oct-2013 11:33 Beach boys
+    4056 dr-xr-xr-x     0      0         0 29-Jun-2012 10:57 Beastie Boys
+   34731 dr-xr-xr-x     0      0         0 16-Oct-2013 11:34 Beatles
+     882 dr-xr-xr-x     0      0         0 26-Jan-2012 13:14 Bird sounds
+    4155 dr-xr-xr-x     0      0         0 29-Jun-2012 10:57 Blackalicious
+    4173 dr-xr-xr-x     0      0         0 29-Jun-2012 10:58 Blue 45s- The Ultimate Jukebox
+    4195 dr-xr-xr-x     0      0         0 29-Jun-2012 10:58 Blue Break Beats
+   34732 dr-xr-xr-x     0      0         0 16-Oct-2013 11:34 Bob Dylan
+   34733 dr-xr-xr-x     0      0         0 16-Oct-2013 11:34 Bob Marley
+   34736 dr-xr-xr-x     0      0         0 16-Oct-2013 11:36 Bon Jovi
+   29475 dr-xr-xr-x     0      0         0 10-Dec-2011 19:55 Braveheart-Soundtrack
+   34735 dr-xr-xr-x     0      0         0 16-Oct-2013 11:36 Bruce Springsteen
+    4208 dr-xr-xr-x     0      0         0 29-Jun-2012 10:58 Buena Vista Social Club
+    4223 dr-xr-xr-x     0      0         0 29-Jun-2012 10:59 Bugge Wesseltoft
+   29731 dr-xr-xr-x     0      0         0 10-Dec-2011 19:56 CHEBA MASSOLO
+   29615 dr-xr-xr-x     0      0         0 17-Oct-2013 13:17 Calle 13 - Discography (2005-2008)
+   29692 dr-xr-xr-x     0      0         0 10-Dec-2011 19:56 Cantares De Mi Quebrada
+   29707 dr-xr-xr-x     0      0         0 16-Oct-2013 11:37 Carl Stalling
+   34738 dr-xr-xr-x     0      0         0 16-Oct-2013 11:37 Chuck Berry
+    4257 dr-xr-xr-x     0      0         0 29-Jun-2012 11:00 Cinematic Orchestra
+   34740 dr-xr-xr-x     0      0         0 16-Oct-2013 11:37 Coldplay
+   30725 dr-xr-xr-x     0      0         0 19-Dec-2011 10:49 Comandante Che Guevara
+   35808 dr-xr-xr-x     0      0         0 26-Oct-2013 14:31 Common Discography @ 320 (8 Albums+1)(RAP)(by dragan09)
+   26907 dr-xr-xr-x     0      0         0 27-Jun-2013 16:42 DANGERDOOM (Danger Mouse, MF Doom) - The Mouse And The Mask-FLAC
+    4289 dr-xr-xr-x     0      0         0  8-Jun-2015 22:24 DJ Shadow
+   30931 dr-xr-xr-x     0      0         0 10-Dec-2011 19:57 Dido-No Angel
+   30951 dr-xr-xr-x     0      0         0 19-Dec-2011 10:49 Edith Piaf - Greatest Hits (Star Mark Compilations)
+   31001 dr-xr-xr-x     0      0         0 10-Dec-2011 19:57 Eduardo Galeano
+   34924 dr-xr-xr-x     0      0         0 16-Oct-2013 11:48 El  niño canibal
+    4322 dr-xr-xr-x     0      0         0 29-Jun-2012 11:04 Ella Fitzgerald
+   34743 dr-xr-xr-x     0      0         0 16-Oct-2013 11:38 Elvis Presley
+   31346 dr-xr-xr-x     0      0         0 19-Dec-2011 10:49 Entren Los Que Quieran
+    4342 dr-xr-xr-x     0      0         0 29-Jun-2012 11:04 Eric Clapton
+   31362 dr-xr-xr-x     0      0         0 19-Dec-2011 10:49 Ernest Hemingway - In Our Time - Mine
+   31369 dr-xr-xr-x     0      0         0 15-Oct-2013 03:27 FITO PAEZ
+    4357 dr-xr-xr-x     0      0         0 29-Jun-2012 11:04 Fela Kuti
+   31432 dr-xr-xr-x     0      0         0  2-Jul-2013 13:54 Fountaine
+   31443 dr-xr-xr-x     0      0         0 16-Oct-2013 11:44 Frida Kahlo
+   31465 dr-xr-xr-x     0      0         0 16-Oct-2013 11:40 Gipsy Kings
+   31530 dr-xr-xr-x     0      0         0 10-Dec-2011 19:58 ITC fRANKLIN GOTHIC
+   34744 dr-xr-xr-x     0      0         0 16-Oct-2013 11:40 J Dilla
+   31738 dr-xr-xr-x     0      0         0 10-Dec-2011 19:59 JORGE DREXLER
+    4365 dr-xr-xr-x     0      0         0 29-Jun-2012 11:07 Jack Kerouac
+   31551 dr-xr-xr-x     0      0         0 11-Jun-2012 16:16 Jaga Jazzist-6 cd
+    4396 dr-xr-xr-x     0      0         0 29-Jun-2012 11:07 Jamiroquai
+    4407 dr-xr-xr-x     0      0         0 29-Jun-2012 11:07 Jaylib
+   34745 dr-xr-xr-x     0      0         0 16-Oct-2013 11:40 Jimi Hendrix
+   31716 dr-xr-xr-x     0      0         0 10-Dec-2011 19:59 John Lennon-Imagine
+   31748 dr-xr-xr-x     0      0         0 10-Dec-2011 19:59 John Lennon-Plastic Ono Band
+   31800 dr-xr-xr-x     0      0         0 10-Dec-2011 19:59 Juan Puig REVERDESER Adentro de Adentro terapeuta
+    4428 dr-xr-xr-x     0      0         0 29-Jun-2012 11:09 Jurassic 5
+   32341 dr-xr-xr-x     0      0         0  5-Nov-2013 21:05 KEVIN johansen
+   31812 dr-xr-xr-x     0      0         0 26-Jan-2012 11:43 Katemusic
+   36001 dr-xr-xr-x     0      0         0  4-Sep-2013 22:19 Lana Del Rey-Discography
+    4474 dr-xr-xr-x     0      0         0 29-Jun-2012 11:09 Lauryn Hill
+   34746 dr-xr-xr-x     0      0         0 16-Oct-2013 11:41 Led Zeppelin
+   32469 dr-xr-xr-x     0      0         0  1-Jul-2013 11:10 Lila Downs Discography
+   32573 dr-xr-xr-x     0      0         0 10-Dec-2011 20:00 Lisandro ArtimuÑo - argt sur
+    4491 dr-xr-xr-x     0      0         0 16-Oct-2013 11:41 Louis Armstrong
+   34235 dr-xr-xr-x     0      0         0 16-Oct-2013 12:03 Luis Alberto El Flaco Spinetta
+   32714 dr-xr-xr-x     0      0         0 19-Dec-2011 10:41 MARIA ANTONIETA
+    4534 dr-xr-xr-x     0      0         0 29-Jun-2012 11:11 Madlib
+   32665 dr-xr-xr-x     0      0         0 19-Dec-2011 10:41 Manau
+    4629 dr-xr-xr-x     0      0         0  1-Jul-2013 12:12 Manu Chao
+   32691 dr-xr-xr-x     0      0         0  7-Nov-2013 12:32 Manu Chao-Clandestino
+   34747 dr-xr-xr-x     0      0         0 16-Oct-2013 11:41 Mercedes Sosa
+   34748 dr-xr-xr-x     0      0         0 16-Oct-2013 11:41 Michael Jackson
+   34749 dr-xr-xr-x     0      0         0 16-Oct-2013 11:42 Moby
+    4646 dr-xr-xr-x     0      0         0 29-Jun-2012 11:12 Mongo Santamaria
+   34751 dr-xr-xr-x     0      0         0 16-Oct-2013 11:42 Morcheeba
+   33133 dr-xr-xr-x     0      0         0 19-Dec-2011 10:46 Mozart - Complete Piano Concertos
+   34750 dr-xr-xr-x     0      0         0 16-Oct-2013 11:42 Muddy Waters
+   33311 dr-xr-xr-x     0      0         0  9-Jan-2012 21:24 Music Test
+   33701 dr-xr-xr-x     0      0         0 10-Dec-2011 20:02 Need For Speed
+   34739 dr-xr-xr-x     0      0         0 16-Oct-2013 11:42 Neil Young
+    4666 dr-xr-xr-x     0      0         0 29-Jun-2012 11:13 Nightmares On Wax
+   28881 dr-xr-xr-x     0      0         0 16-Oct-2013 11:43 Of Montreal
+   28976 dr-xr-xr-x     0      0         0 14-Oct-2013 17:25 One Self - Children Of Possibility
+   33784 dr-xr-xr-x     0      0         0 26-Jan-2012 12:00 Os Mutantes
+    4683 dr-xr-xr-x     0      0         0 29-Jun-2012 11:13 Ozomatli
+    4696 dr-xr-xr-x     0      0         0 29-Jun-2012 11:14 Peanut Butter Wolf
+   33898 dr-xr-xr-x     0      0         0 10-Dec-2011 20:02 Phillip Glass
+   34034 dr-xr-xr-x     0      0         0 10-Dec-2011 20:03 Piano Favourites [Flac]
+    4721 dr-xr-xr-x     0      0         0 29-Jun-2012 11:14 Pink Floyd
+   66439 dr-xr-xr-x     0      0         0 10-Jan-2014 15:59 Pink Martini - Sympathique [1997]
+   28999 dr-xr-xr-x     0      0         0 27-Jun-2013 16:56 Portishead
+   29109 dr-xr-xr-x     0      0         0 27-Jun-2013 16:56 Portishead - Third [mp3-vbr-2008]
+    4732 dr-xr-xr-x     0      0         0 29-Jun-2012 11:15 Quannum Projects
+    4748 dr-xr-xr-x     0      0         0 29-Jun-2012 11:15 Quasimoto
+   34752 dr-xr-xr-x     0      0         0 16-Oct-2013 11:43 Rod Stewart
+   34753 dr-xr-xr-x     0      0         0 16-Oct-2013 11:43 Rolling Stones
+    4799 dr-xr-xr-x     0      0         0 29-Jun-2012 11:16 Roots Manuva
+    4841 dr-xr-xr-x     0      0         0 29-Jun-2012 11:17 Sergio Mendes
+   34173 dr-xr-xr-x     0      0         0 10-Dec-2011 20:03 Sigur Ros
+    4864 dr-xr-xr-x     0      0         0 29-Jun-2012 11:17 SoleSides Greatest Bumps (Disc 1)
+   34754 dr-xr-xr-x     0      0         0 16-Oct-2013 11:44 Strange Games and Things
+   34755 dr-xr-xr-x     0      0         0 16-Oct-2013 11:46 Susana Baca
+    4933 dr-xr-xr-x     0      0         0 29-Jun-2012 11:19 The Avalanches
+    4941 dr-xr-xr-x     0      0         0 29-Jun-2012 11:19 The Beatles
+   34500 dr-xr-xr-x     0      0         0 17-Dec-2012 22:12 The Hours
+   34519 dr-xr-xr-x     0      0         0 11-Jun-2012 16:16 The Kilimanjaro Darkjazz Ensem
+   34532 dr-xr-xr-x     0      0         0 19-Dec-2011 10:48 The Knife 2001-2006
+    4959 dr-xr-xr-x     0      0         0 16-Oct-2013 11:46 The Roots
+   34613 dr-xr-xr-x     0      0         0 19-Dec-2011 10:48 Tom, Vinicius, Toquinho, Miúcha - Gravado Ao Vivo no Canecão-1977
+   34922 dr-xr-xr-x     0      0         0 16-Oct-2013 11:46 Tonolec
+   34640 dr-xr-xr-x     0      0         0 10-Dec-2011 20:04 Tovien
+   34923 dr-xr-xr-x     0      0         0 16-Oct-2013 11:48 VCA - cave performance
+   34925 dr-xr-xr-x     0      0         0 16-Oct-2013 11:49 Wax Tailor
+    4993 dr-xr-xr-x     0      0         0 29-Jun-2012 11:22 Yesterdays New Quintet
+   29880 dr-xr-xr-x     0      0         0  1-Jul-2013 10:52 classical music
+   30635 dr-xr-xr-x     0      0         0 11-Jun-2012 16:15 classicd4
+   31512 dr-xr-xr-x     0      0         0 11-Jun-2012 16:15 hossam ramzy & rafa el - flamenco arabe
+   26918 dr-xr-xr-x     0      0         0 27-Jun-2013 16:53 iTunes
+   33763 dr-xr-xr-x     0      0         0  8-Apr-2013 12:33 orishas
+   29145 dr-xr-xr-x     0      0         0 27-Jun-2013 16:56 the_roots-5_albums
+Directory /
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 .
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 ..
+    3958 dr-xr-xr-x     0      0         0 18-Jun-2015 03:00 $RECYCLE.BIN
+   63131 dr-xr-xr-x     0      0         0 17-Jul-2015 00:46 AILA
+   60377 dr-xr-xr-x     0      0         0 21-Jun-2014 16:28 BOOKS
+    5025 dr-xr-xr-x     0      0         0 16-Jan-2015 15:28 IMAGES
+   35658 dr-xr-xr-x     0      0         0 25-Mar-2015 22:10 MOVIES
+   22287 dr-xr-xr-x     0      0         0 21-Jun-2014 16:15 MUSIC
+   21190 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 PROJECTS
+   21997 dr-xr-xr-x     0      0         0 30-Jan-2014 13:48 System Volume Information
+  116783 dr-xr-xr-x     0      0         0 14-Jul-2015 22:35 TIDY
+   68634 dr-xr-xr-x     0      0         0 14-Jun-2015 17:20 TOOLS
+    8915 dr-xr-xr-x     0      0         0 19-Aug-2014 18:29 UNI ARCHIVES
+      67 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 WORK_CV
+   63313 dr-xr-xr-x     0      0         0 17-Jul-2015 10:23 work back up
+
+dir_partition inode=21190
+   L HPFS - NTFS              0   1  2 91200 254 63 1465144001 [Main_return to 0414786154]
+     NTFS, blocksize=4096, 750 GB / 698 GiB
+Directory /PROJECTS
+   21190 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 .
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 ..
+  132372 dr-xr-xr-x     0      0         0 14-Jun-2015 17:14 AILA
+   63084 dr-xr-xr-x     0      0         0 19-Aug-2014 18:31 Chile house
+   65396 dr-xr-xr-x     0      0         0 19-Aug-2014 18:32 Design Fiction
+   64387 dr-xr-xr-x     0      0         0 19-Oct-2014 21:15 GRAPHIC DESIGN WORK
+   21191 dr-xr-xr-x     0      0         0 26-Jun-2013 17:27 Guatemala Transcriptions
+    8218 dr-xr-xr-x     0      0         0 18-Aug-2014 13:41 Hortus Conclusis
+   65427 dr-xr-xr-x     0      0         0 19-Aug-2014 18:18 Juniper Fruit
+  110276 dr-xr-xr-x     0      0         0 16-Jan-2015 15:24 Kate Collaboration
+   70878 dr-xr-xr-x     0      0         0 26-May-2014 00:25 Phillip Island house
+   63098 dr-xr-xr-x     0      0         0 19-Aug-2014 18:31 Schetches
+   65766 dr-xr-xr-x     0      0         0 19-Aug-2014 18:18 Sewing patterns
+   64373 dr-xr-xr-x     0      0         0 19-Oct-2014 21:13 VOLUNTEER WORK
+   65992 dr-xr-xr-x     0      0         0  4-Dec-2011 00:09 VUE
+  110292 dr-xr-xr-x     0      0         0 19-Oct-2014 21:03 WAMA Exhibition
+   35223 dr-xr-xr-x     0      0         0 29-May-2015 14:53 from Edan's computer
+  116796 dr-xr-xr-x     0      0         0 17-Jan-2015 19:06 menu
+      72 dr-xr-xr-x     0      0         0 27-Jun-2013 18:01 neni
+
+dir_partition inode=35223
+   L HPFS - NTFS              0   1  2 91200 254 63 1465144001 [Main_return to 0414786154]
+     NTFS, blocksize=4096, 750 GB / 698 GiB
+Directory /PROJECTS/from Edan's computer
+   35223 dr-xr-xr-x     0      0         0 29-May-2015 14:53 .
+   21190 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 ..
+   35268 dr-xr-xr-x     0      0         0 29-Jun-2014 15:53 EDAN PLAN
+   35251 dr-xr-xr-x     0      0         0 29-Jun-2014 15:51 bibs
+   35259 dr-xr-xr-x     0      0         0 29-Jun-2014 15:53 design thesis
+   35641 dr-xr-xr-x     0      0         0 29-Jun-2014 15:53 sketches
+   35657 -r--r--r--     0      0      1558 26-Mar-2014 00:17 Australian touris.txt
+   35225 -r--r--r--     0      0     11258 18-Jun-2013 21:31 epq personality test.xlsx
+   35227 -r--r--r--     0      0    241664 10-Apr-2014 14:24 heart.max
+   35228 -r--r--r--     0      0     12602  9-Apr-2013 22:52 scale calculator v2.xlsx
+   35229 -r--r--r--     0      0     12603  9-Apr-2013 22:51 scale calculator.xlsx
+   35231 -r--r--r--     0      0     12375  8-Apr-2013 23:43 scales.xlsx
+   35233 -r--r--r--     0      0     42190 25-Mar-2014 23:46 tourists.txt
+   35240 -r--r--r--     0      0         0 26-Mar-2014 00:20 victorian.txt
+
+dir_partition inode=35268
+   L HPFS - NTFS              0   1  2 91200 254 63 1465144001 [Main_return to 0414786154]
+     NTFS, blocksize=4096, 750 GB / 698 GiB
+Directory /PROJECTS/from Edan's computer/EDAN PLAN
+   35268 dr-xr-xr-x     0      0         0 29-Jun-2014 15:53 .
+   35223 dr-xr-xr-x     0      0         0 29-May-2015 14:53 ..
+   35604 dr-xr-xr-x     0      0         0 29-Jun-2014 15:53 CAD BLOCKS
+   35273 -r--r--r--     0      0    182470 12-Oct-2013 12:03 05_BB_AxoSection_1000.jpg
+   35273 -r--r--r--     0      0        26 12-Oct-2013 12:03 05_BB_AxoSection_1000.jpg:Zone.Identifier
+   35283 -r--r--r--     0      0     63038 12-Oct-2013 11:59 09_NN_IBR_Render00_1000.jpg
+   35283 -r--r--r--     0      0        26 12-Oct-2013 11:59 09_NN_IBR_Render00_1000.jpg:Zone.Identifier
+   35284 -r--r--r--     0      0     89701 12-Oct-2013 11:59 10_NN_IBR_Sections_1000.jpg
+   35284 -r--r--r--     0      0        26 12-Oct-2013 11:59 10_NN_IBR_Sections_1000.jpg:Zone.Identifier
+   35288 -r--r--r--     0      0   2131667 26-Nov-2012 13:29 724G_03.jpg
+   35290 -r--r--r--     0      0 441999881 12-Jun-2014 00:35 Edan_plan1.ai
+   35291 -r--r--r--     0      0 545694486 12-Jun-2014 00:41 Edan_plan2.ai
+   35334 -r--r--r--     0      0     47328 27-Jun-2013 16:26 Largeplancollagenew0.jpg
+   35589 -r--r--r--     0      0    963724 11-Jun-2014 02:59 PLAN IN LAYERS_FLAT.ai
+   35351 -r--r--r--     0      0    380851 30-Oct-2012 09:10 Picture 033.jpg
+   35594 -r--r--r--     0      0     95502  7-Oct-2012 16:47 StanfordPlanning_DTC-p209_web.jpg
+   35594 -r--r--r--     0      0        26  7-Oct-2012 16:47 StanfordPlanning_DTC-p209_web.jpg:Zone.Identifier
+   35665 -r--r--r--     0      0    128000 29-Jun-2014 10:14 Thumbs.db
+   35665 -r--r--r--     0      0         0 29-Jun-2014 10:14 Thumbs.db:encryptable
+   35601 -r--r--r--     0      0 924190043 13-Jun-2014 14:34 WAMA_veronicaCarraco.pdf
+   35289 -r--r--r--     0      0 254173160  4-Jun-2014 15:39 composite.psd
+   35590 -r--r--r--     0      0   9488918 11-Jun-2014 18:22 rasterised trees.png
+   35591 -r--r--r--     0      0 109505885  4-Jun-2014 19:37 site_1.psd
+   35595 -r--r--r--     0      0   1204187 12-Jun-2014 00:28 tocks.png
+   35596 -r--r--r--     0      0 122205469 28-Apr-2014 15:27 wama aerial.pdf
+   35597 -r--r--r--     0      0 122228387 11-Jun-2014 18:47 wama aerial1.pdf
+Directory /PROJECTS/from Edan's computer
+   35223 dr-xr-xr-x     0      0         0 29-May-2015 14:53 .
+   21190 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 ..
+   35268 dr-xr-xr-x     0      0         0 29-Jun-2014 15:53 EDAN PLAN
+   35251 dr-xr-xr-x     0      0         0 29-Jun-2014 15:51 bibs
+   35259 dr-xr-xr-x     0      0         0 29-Jun-2014 15:53 design thesis
+   35641 dr-xr-xr-x     0      0         0 29-Jun-2014 15:53 sketches
+   35657 -r--r--r--     0      0      1558 26-Mar-2014 00:17 Australian touris.txt
+   35225 -r--r--r--     0      0     11258 18-Jun-2013 21:31 epq personality test.xlsx
+   35227 -r--r--r--     0      0    241664 10-Apr-2014 14:24 heart.max
+   35228 -r--r--r--     0      0     12602  9-Apr-2013 22:52 scale calculator v2.xlsx
+   35229 -r--r--r--     0      0     12603  9-Apr-2013 22:51 scale calculator.xlsx
+   35231 -r--r--r--     0      0     12375  8-Apr-2013 23:43 scales.xlsx
+   35233 -r--r--r--     0      0     42190 25-Mar-2014 23:46 tourists.txt
+   35240 -r--r--r--     0      0         0 26-Mar-2014 00:20 victorian.txt
+
+dir_partition inode=35251
+   L HPFS - NTFS              0   1  2 91200 254 63 1465144001 [Main_return to 0414786154]
+     NTFS, blocksize=4096, 750 GB / 698 GiB
+Directory /PROJECTS/from Edan's computer/bibs
+   35251 dr-xr-xr-x     0      0         0 29-Jun-2014 15:51 .
+   35223 dr-xr-xr-x     0      0         0 29-May-2015 14:53 ..
+   35256 -r--r--r--     0      0    285861  9-Jan-2013 22:20 animals copy.pdf
+   35258 -r--r--r--     0      0   1096675  9-Jan-2013 23:09 animals.ai
+Directory /PROJECTS/from Edan's computer
+   35223 dr-xr-xr-x     0      0         0 29-May-2015 14:53 .
+   21190 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 ..
+   35268 dr-xr-xr-x     0      0         0 29-Jun-2014 15:53 EDAN PLAN
+   35251 dr-xr-xr-x     0      0         0 29-Jun-2014 15:51 bibs
+   35259 dr-xr-xr-x     0      0         0 29-Jun-2014 15:53 design thesis
+   35641 dr-xr-xr-x     0      0         0 29-Jun-2014 15:53 sketches
+   35657 -r--r--r--     0      0      1558 26-Mar-2014 00:17 Australian touris.txt
+   35225 -r--r--r--     0      0     11258 18-Jun-2013 21:31 epq personality test.xlsx
+   35227 -r--r--r--     0      0    241664 10-Apr-2014 14:24 heart.max
+   35228 -r--r--r--     0      0     12602  9-Apr-2013 22:52 scale calculator v2.xlsx
+   35229 -r--r--r--     0      0     12603  9-Apr-2013 22:51 scale calculator.xlsx
+   35231 -r--r--r--     0      0     12375  8-Apr-2013 23:43 scales.xlsx
+   35233 -r--r--r--     0      0     42190 25-Mar-2014 23:46 tourists.txt
+   35240 -r--r--r--     0      0         0 26-Mar-2014 00:20 victorian.txt
+Directory /PROJECTS
+   21190 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 .
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 ..
+  132372 dr-xr-xr-x     0      0         0 14-Jun-2015 17:14 AILA
+   63084 dr-xr-xr-x     0      0         0 19-Aug-2014 18:31 Chile house
+   65396 dr-xr-xr-x     0      0         0 19-Aug-2014 18:32 Design Fiction
+   64387 dr-xr-xr-x     0      0         0 19-Oct-2014 21:15 GRAPHIC DESIGN WORK
+   21191 dr-xr-xr-x     0      0         0 26-Jun-2013 17:27 Guatemala Transcriptions
+    8218 dr-xr-xr-x     0      0         0 18-Aug-2014 13:41 Hortus Conclusis
+   65427 dr-xr-xr-x     0      0         0 19-Aug-2014 18:18 Juniper Fruit
+  110276 dr-xr-xr-x     0      0         0 16-Jan-2015 15:24 Kate Collaboration
+   70878 dr-xr-xr-x     0      0         0 26-May-2014 00:25 Phillip Island house
+   63098 dr-xr-xr-x     0      0         0 19-Aug-2014 18:31 Schetches
+   65766 dr-xr-xr-x     0      0         0 19-Aug-2014 18:18 Sewing patterns
+   64373 dr-xr-xr-x     0      0         0 19-Oct-2014 21:13 VOLUNTEER WORK
+   65992 dr-xr-xr-x     0      0         0  4-Dec-2011 00:09 VUE
+  110292 dr-xr-xr-x     0      0         0 19-Oct-2014 21:03 WAMA Exhibition
+   35223 dr-xr-xr-x     0      0         0 29-May-2015 14:53 from Edan's computer
+  116796 dr-xr-xr-x     0      0         0 17-Jan-2015 19:06 menu
+      72 dr-xr-xr-x     0      0         0 27-Jun-2013 18:01 neni
+Directory /
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 .
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 ..
+    3958 dr-xr-xr-x     0      0         0 18-Jun-2015 03:00 $RECYCLE.BIN
+   63131 dr-xr-xr-x     0      0         0 17-Jul-2015 00:46 AILA
+   60377 dr-xr-xr-x     0      0         0 21-Jun-2014 16:28 BOOKS
+    5025 dr-xr-xr-x     0      0         0 16-Jan-2015 15:28 IMAGES
+   35658 dr-xr-xr-x     0      0         0 25-Mar-2015 22:10 MOVIES
+   22287 dr-xr-xr-x     0      0         0 21-Jun-2014 16:15 MUSIC
+   21190 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 PROJECTS
+   21997 dr-xr-xr-x     0      0         0 30-Jan-2014 13:48 System Volume Information
+  116783 dr-xr-xr-x     0      0         0 14-Jul-2015 22:35 TIDY
+   68634 dr-xr-xr-x     0      0         0 14-Jun-2015 17:20 TOOLS
+    8915 dr-xr-xr-x     0      0         0 19-Aug-2014 18:29 UNI ARCHIVES
+      67 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 WORK_CV
+   63313 dr-xr-xr-x     0      0         0 17-Jul-2015 10:23 work back up
+
+dir_partition inode=116783
+   L HPFS - NTFS              0   1  2 91200 254 63 1465144001 [Main_return to 0414786154]
+     NTFS, blocksize=4096, 750 GB / 698 GiB
+Directory /TIDY
+  116783 dr-xr-xr-x     0      0         0 14-Jul-2015 22:35 .
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 ..
+  130122 dr-xr-xr-x     0      0         0 14-Jun-2015 17:20 A - HOME FILES
+   44421 dr-xr-xr-x     0      0         0  5-Jul-2015 21:35 D004 Neighbourhood Park
+   87394 dr-xr-xr-x     0      0         0 14-Jun-2015 17:21 EDAN
+  116821 dr-xr-xr-x     0      0         0 21-Jun-2014 16:19 OneNote Notebooks
+  116799 dr-xr-xr-x     0      0         0 16-Jan-2015 15:25 PROJECTS
+   87393 dr-xr-xr-x     0      0         0 14-Jun-2015 17:22 RWA WORK BACKUP
+   87382 dr-xr-xr-x     0      0         0 14-Jun-2015 17:23 SORT
+  110146 dr-xr-xr-x     0      0         0  7-Mar-2015 23:19 iphone
+  116795 -r--r--r--     0      0    299210 10-Feb-2015 20:48 BIE_CV2.pdf
+  123940 -r--r--r--     0      0    270060  4-Apr-2015 12:15 accountings.xlsx
+  121431 -r--r--r--     0      0        18 23-Feb-2015 20:45 edan notes.txt
+  121432 -r--r--r--     0      0     11609  1-Mar-2015 14:44 mark west experimental concrete.docx
+  116817 -r--r--r--     0      0    168034 16-Feb-2015 18:07 passcodes.pdf
+  123918 -r--r--r--     0      0       165 15-Mar-2015 11:05 ~$accountings.xlsx
+
+dir_partition inode=87394
+   L HPFS - NTFS              0   1  2 91200 254 63 1465144001 [Main_return to 0414786154]
+     NTFS, blocksize=4096, 750 GB / 698 GiB
+Directory /TIDY/EDAN
+   87394 dr-xr-xr-x     0      0         0 14-Jun-2015 17:21 .
+  116783 dr-xr-xr-x     0      0         0 14-Jul-2015 22:35 ..
+   70327 dr-xr-xr-x     0      0         0  7-Dec-2014 15:43 BMPCC footage_edan
+   84381 dr-xr-xr-x     0      0         0 21-Nov-2014 19:07 audio_edan
+  138695 dr-xr-xr-x     0      0         0 14-Jun-2015 17:21 unimelb_libcrawler
+
+dir_partition inode=70327
+   L HPFS - NTFS              0   1  2 91200 254 63 1465144001 [Main_return to 0414786154]
+     NTFS, blocksize=4096, 750 GB / 698 GiB
+Directory /TIDY/EDAN/BMPCC footage_edan
+   70327 dr-xr-xr-x     0      0         0  7-Dec-2014 15:43 .
+   87394 dr-xr-xr-x     0      0         0 14-Jun-2015 17:21 ..
+   70373 dr-xr-xr-x     0      0         0 12-Nov-2014 00:20 CacheClip
+   84228 dr-xr-xr-x     0      0         0 21-Nov-2014 10:19 codesign
+   84368 dr-xr-xr-x     0      0         0 25-Nov-2014 12:09 jardan
+   70386 dr-xr-xr-x     0      0         0 16-Nov-2014 07:05 laurie
+   87376 dr-xr-xr-x     0      0         0  3-Dec-2014 23:09 picnic
+   70367 -r--r--r--     0      0 143186049  9-Nov-2014 14:04 Blackmagic Pocket Cinema Camera_1_2014-11-09_1404_C0000.mov
+   70364 -r--r--r--     0      0  97646193  9-Nov-2014 14:05 Blackmagic Pocket Cinema Camera_1_2014-11-09_1405_C0001.mov
+   70331 -r--r--r--     0      0 233372321  9-Nov-2014 14:05 Blackmagic Pocket Cinema Camera_1_2014-11-09_1405_C0002.mov
+   70348 -r--r--r--     0      0 627553585  9-Nov-2014 14:05 Blackmagic Pocket Cinema Camera_1_2014-11-09_1405_C0003.mov
+   70361 -r--r--r--     0      0  26064473  9-Nov-2014 14:09 Blackmagic Pocket Cinema Camera_1_2014-11-09_1409_C0000.mov
+   70343 -r--r--r--     0      0 472277753  9-Nov-2014 14:09 Blackmagic Pocket Cinema Camera_1_2014-11-09_1409_C0001.mov
+   70336 -r--r--r--     0      0 323542209  9-Nov-2014 14:09 Blackmagic Pocket Cinema Camera_1_2014-11-09_1409_C0002.mov
+   70333 -r--r--r--     0      0 244513953  9-Nov-2014 14:10 Blackmagic Pocket Cinema Camera_1_2014-11-09_1410_C0003.mov
+   70352 -r--r--r--     0      0 870165385  9-Nov-2014 14:10 Blackmagic Pocket Cinema Camera_1_2014-11-09_1410_C0004.mov
+   70370 -r--r--r--     0      0 153409665  9-Nov-2014 14:11 Blackmagic Pocket Cinema Camera_1_2014-11-09_1411_C0005.mov
+   70363 -r--r--r--     0      0  87418473  9-Nov-2014 14:11 Blackmagic Pocket Cinema Camera_1_2014-11-09_1411_C0006.mov
+   70335 -r--r--r--     0      0 302148793  9-Nov-2014 14:12 Blackmagic Pocket Cinema Camera_1_2014-11-09_1412_C0007.mov
+   70328 -r--r--r--     0      0 196184209  9-Nov-2014 14:13 Blackmagic Pocket Cinema Camera_1_2014-11-09_1413_C0008.mov
+   70349 -r--r--r--     0      0 689804609  9-Nov-2014 14:14 Blackmagic Pocket Cinema Camera_1_2014-11-09_1414_C0009.mov
+   70365 -r--r--r--     0      0  98575985  9-Nov-2014 14:15 Blackmagic Pocket Cinema Camera_1_2014-11-09_1415_C0010.mov
+   70346 -r--r--r--     0      0 589419809  9-Nov-2014 14:15 Blackmagic Pocket Cinema Camera_1_2014-11-09_1415_C0011.mov
+   70337 -r--r--r--     0      0 323542209  9-Nov-2014 14:16 Blackmagic Pocket Cinema Camera_1_2014-11-09_1416_C0012.mov
+   70344 -r--r--r--     0      0 516907785  9-Nov-2014 14:18 Blackmagic Pocket Cinema Camera_1_2014-11-09_1418_C0000.mov
+   70338 -r--r--r--     0      0 333769929  9-Nov-2014 14:18 Blackmagic Pocket Cinema Camera_1_2014-11-09_1418_C0001.mov
+   70332 -r--r--r--     0      0 236158113  9-Nov-2014 14:25 Blackmagic Pocket Cinema Camera_1_2014-11-09_1425_C0000.mov
+   70340 -r--r--r--     0      0 392322777  9-Nov-2014 14:25 Blackmagic Pocket Cinema Camera_1_2014-11-09_1425_C0001.mov
+   70355 -r--r--r--     0      0 1149051369  9-Nov-2014 14:31 Blackmagic Pocket Cinema Camera_1_2014-11-09_1431_C0000.mov
+   70351 -r--r--r--     0      0 757680481  9-Nov-2014 14:33 Blackmagic Pocket Cinema Camera_1_2014-11-09_1433_C0001.mov
+   70347 -r--r--r--     0      0 624743729  9-Nov-2014 14:33 Blackmagic Pocket Cinema Camera_1_2014-11-09_1433_C0002.mov
+   70350 -r--r--r--     0      0 699118921  9-Nov-2014 14:35 Blackmagic Pocket Cinema Camera_1_2014-11-09_1435_C0003.mov
+   70356 -r--r--r--     0      0 1219692033  9-Nov-2014 14:36 Blackmagic Pocket Cinema Camera_1_2014-11-09_1436_C0004.mov
+   70366 -r--r--r--     0      0 128321657  9-Nov-2014 14:37 Blackmagic Pocket Cinema Camera_1_2014-11-09_1437_C0005.mov
+   70354 -r--r--r--     0      0 1131373025  9-Nov-2014 14:37 Blackmagic Pocket Cinema Camera_1_2014-11-09_1437_C0006.mov
+   70368 -r--r--r--     0      0 147843201  9-Nov-2014 14:38 Blackmagic Pocket Cinema Camera_1_2014-11-09_1438_C0007.mov
+   70330 -r--r--r--     0      0 217565337  9-Nov-2014 14:39 Blackmagic Pocket Cinema Camera_1_2014-11-09_1439_C0008.mov
+   70341 -r--r--r--     0      0 416505569  9-Nov-2014 14:39 Blackmagic Pocket Cinema Camera_1_2014-11-09_1439_C0009.mov
+   70357 -r--r--r--     0      0 1300571681  9-Nov-2014 14:41 Blackmagic Pocket Cinema Camera_1_2014-11-09_1441_C0010.mov
+   70353 -r--r--r--     0      0 982646705  9-Nov-2014 14:43 Blackmagic Pocket Cinema Camera_1_2014-11-09_1443_C0011.mov
+   70362 -r--r--r--     0      0  58599009  9-Nov-2014 14:45 Blackmagic Pocket Cinema Camera_1_2014-11-09_1445_C0012.mov
+   70334 -r--r--r--     0      0 289148089  9-Nov-2014 14:46 Blackmagic Pocket Cinema Camera_1_2014-11-09_1446_C0013.mov
+   70371 -r--r--r--     0      0 182241425  9-Nov-2014 14:46 Blackmagic Pocket Cinema Camera_1_2014-11-09_1446_C0014.mov
+   70372 -r--r--r--     0      0 4225172537  9-Nov-2014 14:51 Blackmagic Pocket Cinema Camera_1_2014-11-09_1451_C0000.mov
+   70342 -r--r--r--     0      0 450903793  9-Nov-2014 14:57 Blackmagic Pocket Cinema Camera_1_2014-11-09_1457_C0001.mov
+   70384 -r--r--r--     0      0 2457961921  9-Nov-2014 14:58 Blackmagic Pocket Cinema Camera_1_2014-11-09_1458_C0002.mov
+   70369 -r--r--r--     0      0 147908737  9-Nov-2014 15:02 Blackmagic Pocket Cinema Camera_1_2014-11-09_1502_C0003.mov
+   70345 -r--r--r--     0      0 522474249  9-Nov-2014 15:03 Blackmagic Pocket Cinema Camera_1_2014-11-09_1503_C0004.mov
+   70329 -r--r--r--     0      0 212916377  9-Nov-2014 15:06 Blackmagic Pocket Cinema Camera_1_2014-11-09_1506_C0000.mov
+   70358 -r--r--r--     0      0 1434451025  9-Nov-2014 15:06 Blackmagic Pocket Cinema Camera_1_2014-11-09_1506_C0001.mov
+   70339 -r--r--r--     0      0 357011153  9-Nov-2014 15:08 Blackmagic Pocket Cinema Camera_1_2014-11-09_1508_C0002.mov
+   70360 -r--r--r--     0      0 5026519897  9-Nov-2014 15:09 Blackmagic Pocket Cinema Camera_1_2014-11-09_1509_C0003.mov
+  105212 -r--r--r--     0      0       286  6-Dec-2014 01:30 V1-0001_00086400.mov.#res
+  105213 -r--r--r--     0      0       286  6-Dec-2014 01:44 V1-0001_picnic.mov.#res
+  105221 -r--r--r--     0      0 573422497  7-Dec-2014 15:47 picnic_final.mov
+  105222 -r--r--r--     0      0       286  7-Dec-2014 15:43 picnic_final.mov.#res
+  105217 -r--r--r--     0      0       286  6-Dec-2014 02:21 picnic_high.mov.#res
+  105219 -r--r--r--     0      0 1515584907  7-Dec-2014 01:31 picnic_high2.mov
+  105220 -r--r--r--     0      0       286  7-Dec-2014 00:38 picnic_high2.mov.#res
+  105214 -r--r--r--     0      0       286  7-Dec-2014 11:45 picnic_high2_.mov.#res
+  105215 -r--r--r--     0      0       286  6-Dec-2014 02:09 picnic_med.mov.#res
+
+dir_partition inode=84228
+   L HPFS - NTFS              0   1  2 91200 254 63 1465144001 [Main_return to 0414786154]
+     NTFS, blocksize=4096, 750 GB / 698 GiB
+Directory /TIDY/EDAN/BMPCC footage_edan/codesign
+   84228 dr-xr-xr-x     0      0         0 21-Nov-2014 10:19 .
+   70327 dr-xr-xr-x     0      0         0  7-Dec-2014 15:43 ..
+   84258 dr-xr-xr-x     0      0         0 16-Nov-2014 11:39 .Spotlight-V100
+   84356 dr-xr-xr-x     0      0         0 21-Nov-2014 10:23 jpg
+   84260 -r--r--r--     0      0 340290761 16-Nov-2014 11:39 Blackmagic Pocket Cinema Camera_1_2014-11-16_1139_C0000.mov
+   84229 -r--r--r--     0      0 105080433 16-Nov-2014 11:40 Blackmagic Pocket Cinema Camera_1_2014-11-16_1140_C0001.mov
+   84230 -r--r--r--     0      0 281709745 16-Nov-2014 11:40 Blackmagic Pocket Cinema Camera_1_2014-11-16_1140_C0002.mov
+   84231 -r--r--r--     0      0  66967145 16-Nov-2014 11:53 Blackmagic Pocket Cinema Camera_1_2014-11-16_1153_C0000.mov
+   84232 -r--r--r--     0      0 249175209 16-Nov-2014 11:53 Blackmagic Pocket Cinema Camera_1_2014-11-16_1153_C0001.mov
+   84233 -r--r--r--     0      0  57669217 16-Nov-2014 11:54 Blackmagic Pocket Cinema Camera_1_2014-11-16_1154_C0002.mov
+   84234 -r--r--r--     0      0 188737681 16-Nov-2014 11:54 Blackmagic Pocket Cinema Camera_1_2014-11-16_1154_C0003.mov
+   84235 -r--r--r--     0      0 171464841 16-Nov-2014 11:55 Blackmagic Pocket Cinema Camera_1_2014-11-16_1155_C0004.mov
+   84236 -r--r--r--     0      0 177580169 16-Nov-2014 11:55 Blackmagic Pocket Cinema Camera_1_2014-11-16_1155_C0005.mov
+   84237 -r--r--r--     0      0 226863265 16-Nov-2014 11:55 Blackmagic Pocket Cinema Camera_1_2014-11-16_1155_C0006.mov
+   84238 -r--r--r--     0      0 104150641 16-Nov-2014 11:56 Blackmagic Pocket Cinema Camera_1_2014-11-16_1156_C0007.mov
+   84239 -r--r--r--     0      0  42796633 16-Nov-2014 11:56 Blackmagic Pocket Cinema Camera_1_2014-11-16_1156_C0008.mov
+   84240 -r--r--r--     0      0 120875129 16-Nov-2014 11:56 Blackmagic Pocket Cinema Camera_1_2014-11-16_1156_C0009.mov
+   84241 -r--r--r--     0      0 252939433 16-Nov-2014 13:42 Blackmagic Pocket Cinema Camera_1_2014-11-16_1342_C0000.mov
+   84242 -r--r--r--     0      0 241724577 16-Nov-2014 13:42 Blackmagic Pocket Cinema Camera_1_2014-11-16_1342_C0001.mov
+   84243 -r--r--r--     0      0 104150641 16-Nov-2014 13:43 Blackmagic Pocket Cinema Camera_1_2014-11-16_1343_C0002.mov
+   84244 -r--r--r--     0      0 568025881 16-Nov-2014 13:58 Blackmagic Pocket Cinema Camera_1_2014-11-16_1358_C0000.mov
+   84245 -r--r--r--     0      0 409063137 16-Nov-2014 13:58 Blackmagic Pocket Cinema Camera_1_2014-11-16_1358_C0001.mov
+   84246 -r--r--r--     0      0 146913409 16-Nov-2014 13:59 Blackmagic Pocket Cinema Camera_1_2014-11-16_1359_C0002.mov
+   84247 -r--r--r--     0      0  28853849 16-Nov-2014 13:59 Blackmagic Pocket Cinema Camera_1_2014-11-16_1359_C0003.mov
+   84248 -r--r--r--     0      0 156211337 16-Nov-2014 13:59 Blackmagic Pocket Cinema Camera_1_2014-11-16_1359_C0004.mov
+   84249 -r--r--r--     0      0 267750577 16-Nov-2014 14:00 Blackmagic Pocket Cinema Camera_1_2014-11-16_1400_C0000.mov
+   84250 -r--r--r--     0      0  40007257 16-Nov-2014 14:32 Blackmagic Pocket Cinema Camera_1_2014-11-16_1432_C0000.mov
+   84251 -r--r--r--     0      0 151554689 16-Nov-2014 14:32 Blackmagic Pocket Cinema Camera_1_2014-11-16_1432_C0001.mov
+   84252 -r--r--r--     0      0 293797049 16-Nov-2014 15:13 Blackmagic Pocket Cinema Camera_1_2014-11-16_1513_C0000.mov
+   84253 -r--r--r--     0      0 164567177 16-Nov-2014 15:13 Blackmagic Pocket Cinema Camera_1_2014-11-16_1513_C0001.mov
+   84254 -r--r--r--     0      0 184101009 16-Nov-2014 15:14 Blackmagic Pocket Cinema Camera_1_2014-11-16_1514_C0002.mov
+   84255 -r--r--r--     0      0  34428505 16-Nov-2014 15:14 Blackmagic Pocket Cinema Camera_1_2014-11-16_1514_C0003.mov
+   84256 -r--r--r--     0      0 277134513 16-Nov-2014 15:15 Blackmagic Pocket Cinema Camera_1_2014-11-16_1515_C0004.mov
+   84257 -r--r--r--     0      0 200820889 16-Nov-2014 15:15 Blackmagic Pocket Cinema Camera_1_2014-11-16_1515_C0005.mov
+   84347 -r--r--r--     0      0   6220982 21-Nov-2014 10:18 V1-0001_Blackmagic Pocket Cinema Camera_1_2014-11-16_1514_C0002.01316680.tif
+   84261 -r--r--r--     0      0  40744430 17-Nov-2014 11:08 V1-0001_YarraGlen_corrected_uncut01316640.mov
+   84263 -r--r--r--     0      0       286 17-Nov-2014 11:08 V1-0001_YarraGlen_corrected_uncut01316640.mov.#res
+   84348 -r--r--r--     0      0   6220982 21-Nov-2014 10:18 V1-0002_Blackmagic Pocket Cinema Camera_1_2014-11-16_1154_C0003.01029002.tif
+   84264 -r--r--r--     0      0  21091138 17-Nov-2014 11:08 V1-0002_YarraGlen_corrected_uncut01208280.mov
+   84265 -r--r--r--     0      0       286 17-Nov-2014 11:08 V1-0002_YarraGlen_corrected_uncut01208280.mov.#res
+   84349 -r--r--r--     0      0   6220982 21-Nov-2014 10:18 V1-0003_Blackmagic Pocket Cinema Camera_1_2014-11-16_1515_C0004.01317685.tif
+   84266 -r--r--r--     0      0  18901358 17-Nov-2014 11:09 V1-0003_YarraGlen_corrected_uncut01208928.mov
+   84267 -r--r--r--     0      0       286 17-Nov-2014 11:08 V1-0003_YarraGlen_corrected_uncut01208928.mov.#res
+   84350 -r--r--r--     0      0   6220982 21-Nov-2014 10:18 V1-0004_Blackmagic Pocket Cinema Camera_1_2014-11-16_1155_C0006.01030605.tif
+   84268 -r--r--r--     0      0  44344658 17-Nov-2014 11:09 V1-0004_YarraGlen_corrected_uncut01029864.mov
+   84269 -r--r--r--     0      0       286 17-Nov-2014 11:09 V1-0004_YarraGlen_corrected_uncut01029864.mov.#res
+   84351 -r--r--r--     0      0   6220982 21-Nov-2014 10:18 V1-0005_Blackmagic Pocket Cinema Camera_1_2014-11-16_1432_C0001.01256725.tif
+   84270 -r--r--r--     0      0  39343042 17-Nov-2014 11:09 V1-0005_YarraGlen_corrected_uncut01317600.mov
+   84271 -r--r--r--     0      0       286 17-Nov-2014 11:09 V1-0005_YarraGlen_corrected_uncut01317600.mov.#res
+   84352 -r--r--r--     0      0   6220982 21-Nov-2014 10:18 V1-0006_Blackmagic Pocket Cinema Camera_1_2014-11-16_1358_C0000.01207454.tif
+   84272 -r--r--r--     0      0  32332925 17-Nov-2014 11:10 V1-0006_YarraGlen_corrected_uncut01183944.mov
+   84273 -r--r--r--     0      0       286 17-Nov-2014 11:09 V1-0006_YarraGlen_corrected_uncut01183944.mov.#res
+   84353 -r--r--r--     0      0   6220982 21-Nov-2014 10:18 V1-0007_Blackmagic Pocket Cinema Camera_1_2014-11-16_1400_C0000.01210380.tif
+   84274 -r--r--r--     0      0  10257734 17-Nov-2014 11:10 V1-0007_YarraGlen_corrected_uncut01028568.mov
+   84275 -r--r--r--     0      0       286 17-Nov-2014 11:10 V1-0007_YarraGlen_corrected_uncut01028568.mov.#res
+   84354 -r--r--r--     0      0   6220982 21-Nov-2014 10:18 V1-0008_Blackmagic Pocket Cinema Camera_1_2014-11-16_1342_C0000.01184117.tif
+   84276 -r--r--r--     0      0  66380469 17-Nov-2014 11:11 V1-0008_YarraGlen_corrected_uncut01207704.mov
+   84277 -r--r--r--     0      0       286 17-Nov-2014 11:10 V1-0008_YarraGlen_corrected_uncut01207704.mov.#res
+   84355 -r--r--r--     0      0   6220982 21-Nov-2014 10:18 V1-0009_Blackmagic Pocket Cinema Camera_1_2014-11-16_1343_C0002.01185457.tif
+   84278 -r--r--r--     0      0  66900156 17-Nov-2014 11:12 V1-0009_YarraGlen_corrected_uncut01206912.mov
+   84279 -r--r--r--     0      0       286 17-Nov-2014 11:11 V1-0009_YarraGlen_corrected_uncut01206912.mov.#res
+   84280 -r--r--r--     0      0  22859427 17-Nov-2014 11:12 V1-0010_YarraGlen_corrected_uncut01031664.mov
+   84281 -r--r--r--     0      0       286 17-Nov-2014 11:12 V1-0010_YarraGlen_corrected_uncut01031664.mov.#res
+   84282 -r--r--r--     0      0  23876449 17-Nov-2014 11:12 V1-0011_YarraGlen_corrected_uncut01185384.mov
+   84283 -r--r--r--     0      0       286 17-Nov-2014 11:12 V1-0011_YarraGlen_corrected_uncut01185384.mov.#res
+   84284 -r--r--r--     0      0  21316277 17-Nov-2014 11:13 V1-0012_YarraGlen_corrected_uncut01008240.mov
+   84285 -r--r--r--     0      0       286 17-Nov-2014 11:12 V1-0012_YarraGlen_corrected_uncut01008240.mov.#res
+   84286 -r--r--r--     0      0  50094118 17-Nov-2014 11:13 V1-0013_YarraGlen_corrected_uncut01008624.mov
+   84287 -r--r--r--     0      0       286 17-Nov-2014 11:13 V1-0013_YarraGlen_corrected_uncut01008624.mov.#res
+   84288 -r--r--r--     0      0  10326183 17-Nov-2014 11:13 V1-0014_YarraGlen_corrected_uncut01317312.mov
+   84289 -r--r--r--     0      0       286 17-Nov-2014 11:13 V1-0014_YarraGlen_corrected_uncut01317312.mov.#res
+   84290 -r--r--r--     0      0  14811094 17-Nov-2014 11:13 V1-0015_YarraGlen_corrected_uncut01027968.mov
+   84291 -r--r--r--     0      0       286 17-Nov-2014 11:13 V1-0015_YarraGlen_corrected_uncut01027968.mov.#res
+   84292 -r--r--r--     0      0   8768701 17-Nov-2014 11:13 V1-0016_YarraGlen_corrected_uncut01031520.mov
+   84293 -r--r--r--     0      0       286 17-Nov-2014 11:13 V1-0016_YarraGlen_corrected_uncut01031520.mov.#res
+   84294 -r--r--r--     0      0   9843419 17-Nov-2014 11:14 V1-0017_YarraGlen_corrected_uncut01256448.mov
+   84295 -r--r--r--     0      0       286 17-Nov-2014 11:13 V1-0017_YarraGlen_corrected_uncut01256448.mov.#res
+   84296 -r--r--r--     0      0  33042617 17-Nov-2014 11:14 V1-0018_YarraGlen_corrected_uncut01030560.mov
+   84297 -r--r--r--     0      0       286 17-Nov-2014 11:14 V1-0018_YarraGlen_corrected_uncut01030560.mov.#res
+   84298 -r--r--r--     0      0  67695346 17-Nov-2014 11:15 V1-0019_YarraGlen_corrected_uncut01007688.mov
+   84299 -r--r--r--     0      0       286 17-Nov-2014 11:14 V1-0019_YarraGlen_corrected_uncut01007688.mov.#res
+   84300 -r--r--r--     0      0  31887495 17-Nov-2014 11:15 V1-0020_YarraGlen_corrected_uncut01030128.mov
+   84301 -r--r--r--     0      0       286 17-Nov-2014 11:15 V1-0020_YarraGlen_corrected_uncut01030128.mov.#res
+   84302 -r--r--r--     0      0  62298870 17-Nov-2014 11:16 V1-0021_YarraGlen_corrected_uncut01315224.mov
+   84303 -r--r--r--     0      0       286 17-Nov-2014 11:15 V1-0021_YarraGlen_corrected_uncut01315224.mov.#res
+   84304 -r--r--r--     0      0  32160587 17-Nov-2014 11:16 V1-0022_YarraGlen_corrected_uncut01315968.mov
+   84305 -r--r--r--     0      0       286 17-Nov-2014 11:16 V1-0022_YarraGlen_corrected_uncut01315968.mov.#res
+   84306 -r--r--r--     0      0  42471393 17-Nov-2014 11:16 V1-0023_YarraGlen_corrected_uncut01184784.mov
+   84307 -r--r--r--     0      0       286 17-Nov-2014 11:16 V1-0023_YarraGlen_corrected_uncut01184784.mov.#res
+   84308 -r--r--r--     0      0   7774627 17-Nov-2014 11:16 V1-0024_YarraGlen_corrected_uncut01208712.mov
+   84309 -r--r--r--     0      0       286 17-Nov-2014 11:16 V1-0024_YarraGlen_corrected_uncut01208712.mov.#res
+   84310 -r--r--r--     0      0  34633546 17-Nov-2014 11:17 V1-0025_YarraGlen_corrected_uncut01318848.mov
+   84311 -r--r--r--     0      0       286 17-Nov-2014 11:16 V1-0025_YarraGlen_corrected_uncut01318848.mov.#res
+   84312 -r--r--r--     0      0  59227863 17-Nov-2014 11:17 V1-0026_YarraGlen_corrected_uncut01028088.mov
+   84313 -r--r--r--     0      0       286 17-Nov-2014 11:17 V1-0026_YarraGlen_corrected_uncut01028088.mov.#res
+   84314 -r--r--r--     0      0  42927325 17-Nov-2014 11:18 V1-0027_YarraGlen_corrected_uncut01028856.mov
+   84315 -r--r--r--     0      0       286 17-Nov-2014 11:17 V1-0027_YarraGlen_corrected_uncut01028856.mov.#res
+   84316 -r--r--r--     0      0  23981476 17-Nov-2014 11:18 V1-0028_YarraGlen_corrected_uncut01210224.mov
+   84317 -r--r--r--     0      0       286 17-Nov-2014 11:18 V1-0028_YarraGlen_corrected_uncut01210224.mov.#res
+   84318 -r--r--r--     0      0  33204026 17-Nov-2014 11:18 V1-0029_YarraGlen_corrected_uncut01256616.mov
+   84319 -r--r--r--     0      0       286 17-Nov-2014 11:18 V1-0029_YarraGlen_corrected_uncut01256616.mov.#res
+   84320 -r--r--r--     0      0  23759697 17-Nov-2014 11:19 V1-0030_YarraGlen_corrected_uncut01031184.mov
+   84321 -r--r--r--     0      0       286 17-Nov-2014 11:18 V1-0030_YarraGlen_corrected_uncut01031184.mov.#res
+   84262 -r--r--r--     0      0       286 17-Nov-2014 11:05 YarraGlen_corrected_uncut.mov.#res
+Directory /TIDY/EDAN/BMPCC footage_edan
+   70327 dr-xr-xr-x     0      0         0  7-Dec-2014 15:43 .
+   87394 dr-xr-xr-x     0      0         0 14-Jun-2015 17:21 ..
+   70373 dr-xr-xr-x     0      0         0 12-Nov-2014 00:20 CacheClip
+   84228 dr-xr-xr-x     0      0         0 21-Nov-2014 10:19 codesign
+   84368 dr-xr-xr-x     0      0         0 25-Nov-2014 12:09 jardan
+   70386 dr-xr-xr-x     0      0         0 16-Nov-2014 07:05 laurie
+   87376 dr-xr-xr-x     0      0         0  3-Dec-2014 23:09 picnic
+   70367 -r--r--r--     0      0 143186049  9-Nov-2014 14:04 Blackmagic Pocket Cinema Camera_1_2014-11-09_1404_C0000.mov
+   70364 -r--r--r--     0      0  97646193  9-Nov-2014 14:05 Blackmagic Pocket Cinema Camera_1_2014-11-09_1405_C0001.mov
+   70331 -r--r--r--     0      0 233372321  9-Nov-2014 14:05 Blackmagic Pocket Cinema Camera_1_2014-11-09_1405_C0002.mov
+   70348 -r--r--r--     0      0 627553585  9-Nov-2014 14:05 Blackmagic Pocket Cinema Camera_1_2014-11-09_1405_C0003.mov
+   70361 -r--r--r--     0      0  26064473  9-Nov-2014 14:09 Blackmagic Pocket Cinema Camera_1_2014-11-09_1409_C0000.mov
+   70343 -r--r--r--     0      0 472277753  9-Nov-2014 14:09 Blackmagic Pocket Cinema Camera_1_2014-11-09_1409_C0001.mov
+   70336 -r--r--r--     0      0 323542209  9-Nov-2014 14:09 Blackmagic Pocket Cinema Camera_1_2014-11-09_1409_C0002.mov
+   70333 -r--r--r--     0      0 244513953  9-Nov-2014 14:10 Blackmagic Pocket Cinema Camera_1_2014-11-09_1410_C0003.mov
+   70352 -r--r--r--     0      0 870165385  9-Nov-2014 14:10 Blackmagic Pocket Cinema Camera_1_2014-11-09_1410_C0004.mov
+   70370 -r--r--r--     0      0 153409665  9-Nov-2014 14:11 Blackmagic Pocket Cinema Camera_1_2014-11-09_1411_C0005.mov
+   70363 -r--r--r--     0      0  87418473  9-Nov-2014 14:11 Blackmagic Pocket Cinema Camera_1_2014-11-09_1411_C0006.mov
+   70335 -r--r--r--     0      0 302148793  9-Nov-2014 14:12 Blackmagic Pocket Cinema Camera_1_2014-11-09_1412_C0007.mov
+   70328 -r--r--r--     0      0 196184209  9-Nov-2014 14:13 Blackmagic Pocket Cinema Camera_1_2014-11-09_1413_C0008.mov
+   70349 -r--r--r--     0      0 689804609  9-Nov-2014 14:14 Blackmagic Pocket Cinema Camera_1_2014-11-09_1414_C0009.mov
+   70365 -r--r--r--     0      0  98575985  9-Nov-2014 14:15 Blackmagic Pocket Cinema Camera_1_2014-11-09_1415_C0010.mov
+   70346 -r--r--r--     0      0 589419809  9-Nov-2014 14:15 Blackmagic Pocket Cinema Camera_1_2014-11-09_1415_C0011.mov
+   70337 -r--r--r--     0      0 323542209  9-Nov-2014 14:16 Blackmagic Pocket Cinema Camera_1_2014-11-09_1416_C0012.mov
+   70344 -r--r--r--     0      0 516907785  9-Nov-2014 14:18 Blackmagic Pocket Cinema Camera_1_2014-11-09_1418_C0000.mov
+   70338 -r--r--r--     0      0 333769929  9-Nov-2014 14:18 Blackmagic Pocket Cinema Camera_1_2014-11-09_1418_C0001.mov
+   70332 -r--r--r--     0      0 236158113  9-Nov-2014 14:25 Blackmagic Pocket Cinema Camera_1_2014-11-09_1425_C0000.mov
+   70340 -r--r--r--     0      0 392322777  9-Nov-2014 14:25 Blackmagic Pocket Cinema Camera_1_2014-11-09_1425_C0001.mov
+   70355 -r--r--r--     0      0 1149051369  9-Nov-2014 14:31 Blackmagic Pocket Cinema Camera_1_2014-11-09_1431_C0000.mov
+   70351 -r--r--r--     0      0 757680481  9-Nov-2014 14:33 Blackmagic Pocket Cinema Camera_1_2014-11-09_1433_C0001.mov
+   70347 -r--r--r--     0      0 624743729  9-Nov-2014 14:33 Blackmagic Pocket Cinema Camera_1_2014-11-09_1433_C0002.mov
+   70350 -r--r--r--     0      0 699118921  9-Nov-2014 14:35 Blackmagic Pocket Cinema Camera_1_2014-11-09_1435_C0003.mov
+   70356 -r--r--r--     0      0 1219692033  9-Nov-2014 14:36 Blackmagic Pocket Cinema Camera_1_2014-11-09_1436_C0004.mov
+   70366 -r--r--r--     0      0 128321657  9-Nov-2014 14:37 Blackmagic Pocket Cinema Camera_1_2014-11-09_1437_C0005.mov
+   70354 -r--r--r--     0      0 1131373025  9-Nov-2014 14:37 Blackmagic Pocket Cinema Camera_1_2014-11-09_1437_C0006.mov
+   70368 -r--r--r--     0      0 147843201  9-Nov-2014 14:38 Blackmagic Pocket Cinema Camera_1_2014-11-09_1438_C0007.mov
+   70330 -r--r--r--     0      0 217565337  9-Nov-2014 14:39 Blackmagic Pocket Cinema Camera_1_2014-11-09_1439_C0008.mov
+   70341 -r--r--r--     0      0 416505569  9-Nov-2014 14:39 Blackmagic Pocket Cinema Camera_1_2014-11-09_1439_C0009.mov
+   70357 -r--r--r--     0      0 1300571681  9-Nov-2014 14:41 Blackmagic Pocket Cinema Camera_1_2014-11-09_1441_C0010.mov
+   70353 -r--r--r--     0      0 982646705  9-Nov-2014 14:43 Blackmagic Pocket Cinema Camera_1_2014-11-09_1443_C0011.mov
+   70362 -r--r--r--     0      0  58599009  9-Nov-2014 14:45 Blackmagic Pocket Cinema Camera_1_2014-11-09_1445_C0012.mov
+   70334 -r--r--r--     0      0 289148089  9-Nov-2014 14:46 Blackmagic Pocket Cinema Camera_1_2014-11-09_1446_C0013.mov
+   70371 -r--r--r--     0      0 182241425  9-Nov-2014 14:46 Blackmagic Pocket Cinema Camera_1_2014-11-09_1446_C0014.mov
+   70372 -r--r--r--     0      0 4225172537  9-Nov-2014 14:51 Blackmagic Pocket Cinema Camera_1_2014-11-09_1451_C0000.mov
+   70342 -r--r--r--     0      0 450903793  9-Nov-2014 14:57 Blackmagic Pocket Cinema Camera_1_2014-11-09_1457_C0001.mov
+   70384 -r--r--r--     0      0 2457961921  9-Nov-2014 14:58 Blackmagic Pocket Cinema Camera_1_2014-11-09_1458_C0002.mov
+   70369 -r--r--r--     0      0 147908737  9-Nov-2014 15:02 Blackmagic Pocket Cinema Camera_1_2014-11-09_1502_C0003.mov
+   70345 -r--r--r--     0      0 522474249  9-Nov-2014 15:03 Blackmagic Pocket Cinema Camera_1_2014-11-09_1503_C0004.mov
+   70329 -r--r--r--     0      0 212916377  9-Nov-2014 15:06 Blackmagic Pocket Cinema Camera_1_2014-11-09_1506_C0000.mov
+   70358 -r--r--r--     0      0 1434451025  9-Nov-2014 15:06 Blackmagic Pocket Cinema Camera_1_2014-11-09_1506_C0001.mov
+   70339 -r--r--r--     0      0 357011153  9-Nov-2014 15:08 Blackmagic Pocket Cinema Camera_1_2014-11-09_1508_C0002.mov
+   70360 -r--r--r--     0      0 5026519897  9-Nov-2014 15:09 Blackmagic Pocket Cinema Camera_1_2014-11-09_1509_C0003.mov
+  105212 -r--r--r--     0      0       286  6-Dec-2014 01:30 V1-0001_00086400.mov.#res
+  105213 -r--r--r--     0      0       286  6-Dec-2014 01:44 V1-0001_picnic.mov.#res
+  105221 -r--r--r--     0      0 573422497  7-Dec-2014 15:47 picnic_final.mov
+  105222 -r--r--r--     0      0       286  7-Dec-2014 15:43 picnic_final.mov.#res
+  105217 -r--r--r--     0      0       286  6-Dec-2014 02:21 picnic_high.mov.#res
+  105219 -r--r--r--     0      0 1515584907  7-Dec-2014 01:31 picnic_high2.mov
+  105220 -r--r--r--     0      0       286  7-Dec-2014 00:38 picnic_high2.mov.#res
+  105214 -r--r--r--     0      0       286  7-Dec-2014 11:45 picnic_high2_.mov.#res
+  105215 -r--r--r--     0      0       286  6-Dec-2014 02:09 picnic_med.mov.#res
+Directory /TIDY/EDAN
+   87394 dr-xr-xr-x     0      0         0 14-Jun-2015 17:21 .
+  116783 dr-xr-xr-x     0      0         0 14-Jul-2015 22:35 ..
+   70327 dr-xr-xr-x     0      0         0  7-Dec-2014 15:43 BMPCC footage_edan
+   84381 dr-xr-xr-x     0      0         0 21-Nov-2014 19:07 audio_edan
+  138695 dr-xr-xr-x     0      0         0 14-Jun-2015 17:21 unimelb_libcrawler
+Directory /TIDY
+  116783 dr-xr-xr-x     0      0         0 14-Jul-2015 22:35 .
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 ..
+  130122 dr-xr-xr-x     0      0         0 14-Jun-2015 17:20 A - HOME FILES
+   44421 dr-xr-xr-x     0      0         0  5-Jul-2015 21:35 D004 Neighbourhood Park
+   87394 dr-xr-xr-x     0      0         0 14-Jun-2015 17:21 EDAN
+  116821 dr-xr-xr-x     0      0         0 21-Jun-2014 16:19 OneNote Notebooks
+  116799 dr-xr-xr-x     0      0         0 16-Jan-2015 15:25 PROJECTS
+   87393 dr-xr-xr-x     0      0         0 14-Jun-2015 17:22 RWA WORK BACKUP
+   87382 dr-xr-xr-x     0      0         0 14-Jun-2015 17:23 SORT
+  110146 dr-xr-xr-x     0      0         0  7-Mar-2015 23:19 iphone
+  116795 -r--r--r--     0      0    299210 10-Feb-2015 20:48 BIE_CV2.pdf
+  123940 -r--r--r--     0      0    270060  4-Apr-2015 12:15 accountings.xlsx
+  121431 -r--r--r--     0      0        18 23-Feb-2015 20:45 edan notes.txt
+  121432 -r--r--r--     0      0     11609  1-Mar-2015 14:44 mark west experimental concrete.docx
+  116817 -r--r--r--     0      0    168034 16-Feb-2015 18:07 passcodes.pdf
+  123918 -r--r--r--     0      0       165 15-Mar-2015 11:05 ~$accountings.xlsx
+
+dir_partition inode=116799
+   L HPFS - NTFS              0   1  2 91200 254 63 1465144001 [Main_return to 0414786154]
+     NTFS, blocksize=4096, 750 GB / 698 GiB
+Directory /TIDY/PROJECTS
+  116799 dr-xr-xr-x     0      0         0 16-Jan-2015 15:25 .
+  116783 dr-xr-xr-x     0      0         0 14-Jul-2015 22:35 ..
+  116800 dr-xr-xr-x     0      0         0 19-Oct-2014 21:37 ARCHIVE
+
+dir_partition inode=116800
+   L HPFS - NTFS              0   1  2 91200 254 63 1465144001 [Main_return to 0414786154]
+     NTFS, blocksize=4096, 750 GB / 698 GiB
+Directory /TIDY/PROJECTS/ARCHIVE
+  116800 dr-xr-xr-x     0      0         0 19-Oct-2014 21:37 .
+  116799 dr-xr-xr-x     0      0         0 16-Jan-2015 15:25 ..
+  116801 dr-xr-xr-x     0      0         0 19-Oct-2014 21:16 St.Vincents hospital
+
+dir_partition inode=116801
+   L HPFS - NTFS              0   1  2 91200 254 63 1465144001 [Main_return to 0414786154]
+     NTFS, blocksize=4096, 750 GB / 698 GiB
+Directory /TIDY/PROJECTS/ARCHIVE/St.Vincents hospital
+  116801 dr-xr-xr-x     0      0         0 19-Oct-2014 21:16 .
+  116800 dr-xr-xr-x     0      0         0 19-Oct-2014 21:37 ..
+  116802 dr-xr-xr-x     0      0         0 19-Oct-2014 21:16 Stroke Week
+
+dir_partition inode=116802
+   L HPFS - NTFS              0   1  2 91200 254 63 1465144001 [Main_return to 0414786154]
+     NTFS, blocksize=4096, 750 GB / 698 GiB
+Directory /TIDY/PROJECTS/ARCHIVE/St.Vincents hospital/Stroke Week
+  116802 dr-xr-xr-x     0      0         0 19-Oct-2014 21:16 .
+  116801 dr-xr-xr-x     0      0         0 19-Oct-2014 21:16 ..
+  116803 -r--r--r--     0      0    460194 14-Aug-2014 13:29 gregessayan-galacticeruption-fineart-photography-milkyway-astrophotography-image-panorama-starscapes-earthscape-landscape-galaxy-stars-andromeda-moonlight-night-sky-galaxy-ocean-desert-mountains-clouds-twilight-sunset.jpg
+Directory /TIDY/PROJECTS/ARCHIVE/St.Vincents hospital
+  116801 dr-xr-xr-x     0      0         0 19-Oct-2014 21:16 .
+  116800 dr-xr-xr-x     0      0         0 19-Oct-2014 21:37 ..
+  116802 dr-xr-xr-x     0      0         0 19-Oct-2014 21:16 Stroke Week
+Directory /TIDY/PROJECTS/ARCHIVE
+  116800 dr-xr-xr-x     0      0         0 19-Oct-2014 21:37 .
+  116799 dr-xr-xr-x     0      0         0 16-Jan-2015 15:25 ..
+  116801 dr-xr-xr-x     0      0         0 19-Oct-2014 21:16 St.Vincents hospital
+Directory /TIDY/PROJECTS
+  116799 dr-xr-xr-x     0      0         0 16-Jan-2015 15:25 .
+  116783 dr-xr-xr-x     0      0         0 14-Jul-2015 22:35 ..
+  116800 dr-xr-xr-x     0      0         0 19-Oct-2014 21:37 ARCHIVE
+Directory /TIDY
+  116783 dr-xr-xr-x     0      0         0 14-Jul-2015 22:35 .
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 ..
+  130122 dr-xr-xr-x     0      0         0 14-Jun-2015 17:20 A - HOME FILES
+   44421 dr-xr-xr-x     0      0         0  5-Jul-2015 21:35 D004 Neighbourhood Park
+   87394 dr-xr-xr-x     0      0         0 14-Jun-2015 17:21 EDAN
+  116821 dr-xr-xr-x     0      0         0 21-Jun-2014 16:19 OneNote Notebooks
+  116799 dr-xr-xr-x     0      0         0 16-Jan-2015 15:25 PROJECTS
+   87393 dr-xr-xr-x     0      0         0 14-Jun-2015 17:22 RWA WORK BACKUP
+   87382 dr-xr-xr-x     0      0         0 14-Jun-2015 17:23 SORT
+  110146 dr-xr-xr-x     0      0         0  7-Mar-2015 23:19 iphone
+  116795 -r--r--r--     0      0    299210 10-Feb-2015 20:48 BIE_CV2.pdf
+  123940 -r--r--r--     0      0    270060  4-Apr-2015 12:15 accountings.xlsx
+  121431 -r--r--r--     0      0        18 23-Feb-2015 20:45 edan notes.txt
+  121432 -r--r--r--     0      0     11609  1-Mar-2015 14:44 mark west experimental concrete.docx
+  116817 -r--r--r--     0      0    168034 16-Feb-2015 18:07 passcodes.pdf
+  123918 -r--r--r--     0      0       165 15-Mar-2015 11:05 ~$accountings.xlsx
+Directory /
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 .
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 ..
+    3958 dr-xr-xr-x     0      0         0 18-Jun-2015 03:00 $RECYCLE.BIN
+   63131 dr-xr-xr-x     0      0         0 17-Jul-2015 00:46 AILA
+   60377 dr-xr-xr-x     0      0         0 21-Jun-2014 16:28 BOOKS
+    5025 dr-xr-xr-x     0      0         0 16-Jan-2015 15:28 IMAGES
+   35658 dr-xr-xr-x     0      0         0 25-Mar-2015 22:10 MOVIES
+   22287 dr-xr-xr-x     0      0         0 21-Jun-2014 16:15 MUSIC
+   21190 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 PROJECTS
+   21997 dr-xr-xr-x     0      0         0 30-Jan-2014 13:48 System Volume Information
+  116783 dr-xr-xr-x     0      0         0 14-Jul-2015 22:35 TIDY
+   68634 dr-xr-xr-x     0      0         0 14-Jun-2015 17:20 TOOLS
+    8915 dr-xr-xr-x     0      0         0 19-Aug-2014 18:29 UNI ARCHIVES
+      67 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 WORK_CV
+   63313 dr-xr-xr-x     0      0         0 17-Jul-2015 10:23 work back up
+
+dir_partition inode=68634
+   L HPFS - NTFS              0   1  2 91200 254 63 1465144001 [Main_return to 0414786154]
+     NTFS, blocksize=4096, 750 GB / 698 GiB
+Directory /TOOLS
+   68634 dr-xr-xr-x     0      0         0 14-Jun-2015 17:20 .
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 ..
+   21311 dr-xr-xr-x     0      0         0 28-Jan-2014 15:45 3D MODELS
+   87372 dr-xr-xr-x     0      0         0  1-Dec-2014 18:05 AUTODESK.AUTOCAD.V2015.WIN64-ISO[rarbg]
+   40090 dr-xr-xr-x     0      0         0 17-Nov-2013 15:12 AutoCad tutorials
+   74079 dr-xr-xr-x     0      0         0  1-Jun-2014 23:41 CAD Blocks
+   22284 dr-xr-xr-x     0      0         0 21-Jun-2014 16:20 COMPUTER
+   58927 dr-xr-xr-x     0      0         0  2-Jun-2014 14:01 FONT
+   22286 dr-xr-xr-x     0      0         0  3-Mar-2015 21:10 GIS MAPS
+   22285 dr-xr-xr-x     0      0         0 26-May-2014 18:55 GRAPHIC TOOLS
+  130164 dr-xr-xr-x     0      0         0  3-May-2015 23:34 Illustrator scripts
+   70916 dr-xr-xr-x     0      0         0 26-May-2014 00:26 rhino_2d_symbol_library
+   73627 dr-xr-xr-x     0      0         0 26-May-2014 00:26 visualizations
+    3986 -r--r--r--     0      0     12602  9-Apr-2013 22:52 scale calculator v2.xlsx
+Directory /
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 .
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 ..
+    3958 dr-xr-xr-x     0      0         0 18-Jun-2015 03:00 $RECYCLE.BIN
+   63131 dr-xr-xr-x     0      0         0 17-Jul-2015 00:46 AILA
+   60377 dr-xr-xr-x     0      0         0 21-Jun-2014 16:28 BOOKS
+    5025 dr-xr-xr-x     0      0         0 16-Jan-2015 15:28 IMAGES
+   35658 dr-xr-xr-x     0      0         0 25-Mar-2015 22:10 MOVIES
+   22287 dr-xr-xr-x     0      0         0 21-Jun-2014 16:15 MUSIC
+   21190 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 PROJECTS
+   21997 dr-xr-xr-x     0      0         0 30-Jan-2014 13:48 System Volume Information
+  116783 dr-xr-xr-x     0      0         0 14-Jul-2015 22:35 TIDY
+   68634 dr-xr-xr-x     0      0         0 14-Jun-2015 17:20 TOOLS
+    8915 dr-xr-xr-x     0      0         0 19-Aug-2014 18:29 UNI ARCHIVES
+      67 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 WORK_CV
+   63313 dr-xr-xr-x     0      0         0 17-Jul-2015 10:23 work back up
+
+dir_partition inode=63313
+   L HPFS - NTFS              0   1  2 91200 254 63 1465144001 [Main_return to 0414786154]
+     NTFS, blocksize=4096, 750 GB / 698 GiB
+Directory /work back up
+   63313 dr-xr-xr-x     0      0         0 17-Jul-2015 10:23 .
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 ..
+   63855 dr-xr-xr-x     0      0         0 16-Jul-2015 18:22 2015-02-12 Claim 05
+   63861 dr-xr-xr-x     0      0         0 16-Jul-2015 18:22 2015-03-16 Claim 06
+   63869 dr-xr-xr-x     0      0         0 16-Jul-2015 18:22 2015-04-13 Claim 07
+   63877 dr-xr-xr-x     0      0         0 16-Jul-2015 18:22 2015-06-04 Claim 09
+   63886 dr-xr-xr-x     0      0         0 16-Jul-2015 18:22 2015-07-02 Wetland Maintenance Plan
+   63888 dr-xr-xr-x     0      0         0 16-Jul-2015 18:22 2015-07-03 Wetland Maintenance Plan - UPDATED
+   63891 dr-xr-xr-x     0      0         0 16-Jul-2015 18:22 2015-07-03 Wetland Maintenance Plan_ CAD
+   63894 dr-xr-xr-x     0      0         0 16-Jul-2015 18:22 2015-07-13 Streetscape Stage 1 & 2 - roundabout setout CAD
+   63847 dr-xr-xr-x     0      0         0 16-Jul-2015 18:22 2015-07-14 Club One Masterplan & sections
+   63850 dr-xr-xr-x     0      0         0 16-Jul-2015 18:22 2015-07-15 Club One MP rev 2.2
+   63852 dr-xr-xr-x     0      0         0 16-Jul-2015 18:22 2015-07-16 Club Jubilee One
+   63316 dr-xr-xr-x     0      0         0 17-Jul-2015 10:23 2015-07-17 Club One MP rev 2.2
+   63900 dr-xr-xr-x     0      0         0 16-Jul-2015 18:23 Baseplans
+   63523 dr-xr-xr-x     0      0         0 16-Jul-2015 17:52 Jubilee Club 1
+   63918 dr-xr-xr-x     0      0         0 16-Jul-2015 18:28 tidy
+Directory /
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 .
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 ..
+    3958 dr-xr-xr-x     0      0         0 18-Jun-2015 03:00 $RECYCLE.BIN
+   63131 dr-xr-xr-x     0      0         0 17-Jul-2015 00:46 AILA
+   60377 dr-xr-xr-x     0      0         0 21-Jun-2014 16:28 BOOKS
+    5025 dr-xr-xr-x     0      0         0 16-Jan-2015 15:28 IMAGES
+   35658 dr-xr-xr-x     0      0         0 25-Mar-2015 22:10 MOVIES
+   22287 dr-xr-xr-x     0      0         0 21-Jun-2014 16:15 MUSIC
+   21190 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 PROJECTS
+   21997 dr-xr-xr-x     0      0         0 30-Jan-2014 13:48 System Volume Information
+  116783 dr-xr-xr-x     0      0         0 14-Jul-2015 22:35 TIDY
+   68634 dr-xr-xr-x     0      0         0 14-Jun-2015 17:20 TOOLS
+    8915 dr-xr-xr-x     0      0         0 19-Aug-2014 18:29 UNI ARCHIVES
+      67 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 WORK_CV
+   63313 dr-xr-xr-x     0      0         0 17-Jul-2015 10:23 work back up
+
+dir_partition inode=8915
+   L HPFS - NTFS              0   1  2 91200 254 63 1465144001 [Main_return to 0414786154]
+     NTFS, blocksize=4096, 750 GB / 698 GiB
+Directory /UNI ARCHIVES
+    8915 dr-xr-xr-x     0      0         0 19-Aug-2014 18:29 .
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 ..
+    8924 dr-xr-xr-x     0      0         0 27-Jun-2013 14:35 Landscape Architecture 2010 S2
+   10293 dr-xr-xr-x     0      0         0 20-Feb-2013 19:56 Landscape Architecture 2011 S1
+   11918 dr-xr-xr-x     0      0         0  8-Dec-2011 23:09 Landscape Architecture 2011 S2
+   16050 dr-xr-xr-x     0      0         0 11-Jun-2012 14:53 Landscape Architecture 2012 S1
+   19265 dr-xr-xr-x     0      0         0 29-Mar-2013 16:31 Landscape Architecture 2012 S2
+    3947 dr-xr-xr-x     0      0         0  1-Jul-2014 22:29 Landscape Architecture 2013 S1
+   35661 dr-xr-xr-x     0      0         0  4-Feb-2014 15:05 Landscape Architecture 2013 S2
+   67664 dr-xr-xr-x     0      0         0 21-Jun-2014 15:48 Landscape Architecture 2014 S1
+Directory /
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 .
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 ..
+    3958 dr-xr-xr-x     0      0         0 18-Jun-2015 03:00 $RECYCLE.BIN
+   63131 dr-xr-xr-x     0      0         0 17-Jul-2015 00:46 AILA
+   60377 dr-xr-xr-x     0      0         0 21-Jun-2014 16:28 BOOKS
+    5025 dr-xr-xr-x     0      0         0 16-Jan-2015 15:28 IMAGES
+   35658 dr-xr-xr-x     0      0         0 25-Mar-2015 22:10 MOVIES
+   22287 dr-xr-xr-x     0      0         0 21-Jun-2014 16:15 MUSIC
+   21190 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 PROJECTS
+   21997 dr-xr-xr-x     0      0         0 30-Jan-2014 13:48 System Volume Information
+  116783 dr-xr-xr-x     0      0         0 14-Jul-2015 22:35 TIDY
+   68634 dr-xr-xr-x     0      0         0 14-Jun-2015 17:20 TOOLS
+    8915 dr-xr-xr-x     0      0         0 19-Aug-2014 18:29 UNI ARCHIVES
+      67 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 WORK_CV
+   63313 dr-xr-xr-x     0      0         0 17-Jul-2015 10:23 work back up
+
+dir_partition inode=67
+   L HPFS - NTFS              0   1  2 91200 254 63 1465144001 [Main_return to 0414786154]
+     NTFS, blocksize=4096, 750 GB / 698 GiB
+Directory /WORK_CV
+      67 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 .
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 ..
+    8004 dr-xr-xr-x     0      0         0 14-Jun-2015 17:12 APPLICATIONS
+    8002 dr-xr-xr-x     0      0         0 18-Aug-2014 12:33 CONTRACTS
+  116816 -r--r--r--     0      0 342769261  2-Feb-2015 01:09 V1-0001_XimeGraduation.mov
+Directory /
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 .
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 ..
+    3958 dr-xr-xr-x     0      0         0 18-Jun-2015 03:00 $RECYCLE.BIN
+   63131 dr-xr-xr-x     0      0         0 17-Jul-2015 00:46 AILA
+   60377 dr-xr-xr-x     0      0         0 21-Jun-2014 16:28 BOOKS
+    5025 dr-xr-xr-x     0      0         0 16-Jan-2015 15:28 IMAGES
+   35658 dr-xr-xr-x     0      0         0 25-Mar-2015 22:10 MOVIES
+   22287 dr-xr-xr-x     0      0         0 21-Jun-2014 16:15 MUSIC
+   21190 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 PROJECTS
+   21997 dr-xr-xr-x     0      0         0 30-Jan-2014 13:48 System Volume Information
+  116783 dr-xr-xr-x     0      0         0 14-Jul-2015 22:35 TIDY
+   68634 dr-xr-xr-x     0      0         0 14-Jun-2015 17:20 TOOLS
+    8915 dr-xr-xr-x     0      0         0 19-Aug-2014 18:29 UNI ARCHIVES
+      67 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 WORK_CV
+   63313 dr-xr-xr-x     0      0         0 17-Jul-2015 10:23 work back up
+
+dir_partition inode=8915
+   L HPFS - NTFS              0   1  2 91200 254 63 1465144001 [Main_return to 0414786154]
+     NTFS, blocksize=4096, 750 GB / 698 GiB
+Directory /UNI ARCHIVES
+    8915 dr-xr-xr-x     0      0         0 19-Aug-2014 18:29 .
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 ..
+    8924 dr-xr-xr-x     0      0         0 27-Jun-2013 14:35 Landscape Architecture 2010 S2
+   10293 dr-xr-xr-x     0      0         0 20-Feb-2013 19:56 Landscape Architecture 2011 S1
+   11918 dr-xr-xr-x     0      0         0  8-Dec-2011 23:09 Landscape Architecture 2011 S2
+   16050 dr-xr-xr-x     0      0         0 11-Jun-2012 14:53 Landscape Architecture 2012 S1
+   19265 dr-xr-xr-xntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+     0      0         0 29-Mar-2013 16:31 Landscape Architecture 2012 S2
+    3947 dr-xr-xr-x     0      0         0  1-Jul-2014 22:29 Landscape Architecture 2013 S1
+   35661 dr-xr-xr-x     0      0         0  4-Feb-2014 15:05 Landscape Architecture 2013 S2
+   67664 dr-xr-xr-x     0      0         0 21-Jun-2014 15:48 Landscape Architecture 2014 S1
+Directory /
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 .
+       5 dr-xr-xr-x     0      0         0 16-Jul-2015 17:50 ..
+    3958 dr-xr-xr-x     0      0         0 18-Jun-2015 03:00 $RECYCLE.BIN
+   63131 dr-xr-xr-x     0      0         0 17-Jul-2015 00:46 AILA
+   60377 dr-xr-xr-x     0      0         0 21-Jun-2014 16:28 BOOKS
+    5025 dr-xr-xr-x     0      0         0 16-Jan-2015 15:28 IMAGES
+   35658 dr-xr-xr-x     0      0         0 25-Mar-2015 22:10 MOVIES
+   22287 dr-xr-xr-x     0      0         0 21-Jun-2014 16:15 MUSIC
+   21190 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 PROJECTS
+   21997 dr-xr-xr-x     0      0         0 30-Jan-2014 13:48 System Volume Information
+  116783 dr-xr-xr-x     0      0         0 14-Jul-2015 22:35 TIDY
+   68634 dr-xr-xr-x     0      0         0 14-Jun-2015 17:20 TOOLS
+    8915 dr-xr-xr-x     0      0         0 19-Aug-2014 18:29 UNI ARCHIVES
+      67 dr-xr-xr-x     0      0         0 14-Jun-2015 17:18 WORK_CV
+   63313 dr-xr-xr-x     0      0         0 17-Jul-2015 10:23 work back up
+file_pread(6,16,buffer,758052048(47186/142/13)) read err: Input/output error
+file_pread(6,1,buffer,758052048(47186/142/13)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758054000(47186/173/12)) read err: Input/output error
+file_pread(6,1,buffer,758054000(47186/173/12)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758061936(47187/44/10)) read err: Input/output error
+file_pread(6,1,buffer,758061936(47187/44/10)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758070256(47187/176/14)) read err: Input/output error
+file_pread(6,1,buffer,758070256(47187/176/14)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758076352(47188/17/62)) read err: Input/output error
+file_pread(6,1,buffer,758076352(47188/17/62)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758082848(47188/121/6)) read err: Input/output error
+file_pread(6,1,buffer,758082848(47188/121/6)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758089144(47188/221/2)) read err: Input/output error
+file_pread(6,1,buffer,758089144(47188/221/2)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758097320(47189/95/51)) read err: Input/output error
+file_pread(6,1,buffer,758097320(47189/95/51)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758105208(47189/221/1)) read err: Input/output error
+file_pread(6,1,buffer,758105208(47189/221/1)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758113168(47190/92/23)) read err: Input/output error
+file_pread(6,1,buffer,758113168(47190/92/23)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758119264(47190/189/8)) read err: Input/output error
+file_pread(6,1,buffer,758119264(47190/189/8)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758125256(47191/29/15)) read err: Input/output error
+file_pread(6,1,buffer,758125256(47191/29/15)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758132136(47191/138/28)) read err: Input/output error
+file_pread(6,1,buffer,758132136(47191/138/28)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758141432(47192/30/63)) read err: Input/output error
+file_pread(6,1,buffer,758141432(47192/30/63)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758150080(47192/168/17)) read err: Input/output error
+file_pread(6,1,buffer,758150080(47192/168/17)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758157528(47193/31ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+/31)) read err: Input/output error
+file_pread(6,1,buffer,758157528(47193/31/31)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758165672(47193/160/48)) read err: Input/output error
+file_pread(6,1,buffer,758165672(47193/160/48)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758170840(47193/242/50)) read err: Input/output error
+file_pread(6,1,buffer,758170840(47193/242/50)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758176600(47194/79/14)) read err: Input/output error
+file_pread(6,1,buffer,758176600(47194/79/14)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758183016(47194/181/4)) read err: Input/output error
+file_pread(6,1,buffer,758183016(47194/181/4)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758189776(47195/33/23)) read err: Input/output error
+file_pread(6,1,buffer,758189776(47195/33/23)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758195816(47195/129/15)) read err: Input/output error
+file_pread(6,1,buffer,758195816(47195/129/15)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758201992(47195/227/17)) read err: Input/output error
+file_pread(6,1,buffer,758201992(47195/227/17)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758207688(47196/62/43)) read err: Input/output error
+file_pread(6,1,buffer,758207688(47196/62/43)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758212552(47196/139/56)) read err: Input/output error
+file_pread(6,1,buffer,758212552(47196/139/56)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758217992(47196/226/15)) read err: Input/output error
+file_pread(6,1,buffer,758217992(47196/226/15)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758223600(47197/60/16)) read err: Input/output error
+file_pread(6,1,buffer,758223600(47197/60/16)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758229080(47197/147/15)) read err: Input/output error
+file_pread(6,1,buffer,758229080(47197/147/15)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758236200(47198/5/16)) read err: Input/output error
+file_pread(6,1,buffer,758236200(47198/5/16)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758243056(47198/114/5)) read err: Input/output error
+file_pread(6,1,buffer,758243056(47198/114/5)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758250040(47198/224/59)) read err: Input/output error
+file_pread(6,1,buffer,758250040(47198/224/59)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758258504(47199/104/18)) read err: Input/output error
+file_pread(6,1,buffer,758258504(47199/104/18)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758265880(47199/221/23)) read err: Input/output error
+file_pread(6,1,buffer,758265880(47199/221/23)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758272536(47200/72/1)) read err: Input/output error
+file_pread(6,1,buffer,758272536(47200/72/1)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758279440(47200/181/38)) read err: Input/output error
+file_pread(6,1,buffer,758279440(47200/181/38)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758286280(47201/35/11)) read err: Input/output error
+file_pread(6,1,buffer,758286280(47201/35/11)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758292840(47201/139/19)) read err: Input/output error
+file_pread(6,1,buffer,758292840(47201/139/19)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758299344(47201/242/34)) read err: Input/output error
+file_pread(6,1,buffer,758299344(47201/242/34)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758307536(47202/117/36)) read err: Input/outntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+put error
+file_pread(6,1,buffer,758307536(47202/117/36)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758315016(47202/236/19)) read err: Input/output error
+file_pread(6,1,buffer,758315016(47202/236/19)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758322704(47203/103/21)) read err: Input/output error
+file_pread(6,1,buffer,758322704(47203/103/21)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758329520(47203/211/33)) read err: Input/output error
+file_pread(6,1,buffer,758329520(47203/211/33)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758336408(47204/65/54)) read err: Input/output error
+file_pread(6,1,buffer,758336408(47204/65/54)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758343288(47204/175/4)) read err: Input/output error
+file_pread(6,1,buffer,758343288(47204/175/4)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758348928(47205/9/37)) read err: Input/output error
+file_pread(6,1,buffer,758348928(47205/9/37)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758354464(47205/97/29)) read err: Input/output error
+file_pread(6,1,buffer,758354464(47205/97/29)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758360000(47205/185/21)) read err: Input/output error
+file_pread(6,1,buffer,758360000(47205/185/21)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758365488(47206/17/28)) read err: Input/output error
+file_pread(6,1,buffer,758365488(47206/17/28)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758371976(47206/120/27)) read err: Input/output error
+file_pread(6,1,buffer,758371976(47206/120/27)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758378408(47206/222/33)) read err: Input/output error
+file_pread(6,1,buffer,758378408(47206/222/33)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758385744(47207/83/61)) read err: Input/output error
+file_pread(6,1,buffer,758385744(47207/83/61)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(6,16,buffer,758391720(47207/178/52)) read err: Input/output error
+SIGINT detected! TestDisk has been killed.
