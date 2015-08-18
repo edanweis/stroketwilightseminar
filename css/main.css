@@ -13,13 +13,13 @@ body {
     -o-background-size: cover;
     background-size: cover;
     background: #101b2f;
-    background: url(../img/bg_web3.png) -00px  no-repeat fixed, -moz-linear-gradient(top, #101b2f 0%, #101b2f 35%, #101b2f 35%, #764e74 71%, #ffa9a3 100%);
-    background: url(../img/bg_web3.png) -00px  no-repeat fixed, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#101b2f), color-stop(35%,#101b2f), color-stop(35%,#101b2f), color-stop(71%,#764e74), color-stop(100%,#ffa9a3));
-    background: url(../img/bg_web3.png) -00px  no-repeat fixed, -webkit-linear-gradient(top, #101b2f 0%,#101b2f 35%,#101b2f 35%,#764e74 71%,#ffa9a3 100%);
-    background: url(../img/bg_web3.png) -00px  no-repeat fixed, -o-linear-gradient(top, #101b2f 0%,#101b2f 35%,#101b2f 35%,#764e74 71%,#ffa9a3 100%);
-    background: url(../img/bg_web3.png) -00px  no-repeat fixed, -ms-linear-gradient(top, #101b2f 0%,#101b2f 35%,#101b2f 35%,#764e74 71%,#ffa9a3 100%);
-    background: url(../img/bg_web3.png) -00px  no-repeat fixed, linear-gradient(to bottom, #101b2f 0%,#101b2f 35%,#101b2f 35%,#764e74 71%,#ffa9a3 100%);
-    background: url(../img/bg_web3.png) -00px  no-repeat fixed, filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101b2f', endColorstr='#ffa9a3',GradientType=0 );
+    background: url(../img/bg_web4.png) -00px  no-repeat fixed, -moz-linear-gradient(top, #101b2f 0%, #101b2f 35%, #101b2f 35%, #764e74 71%, #ffa9a3 100%);
+    background: url(../img/bg_web4.png) -00px  no-repeat fixed, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#101b2f), color-stop(35%,#101b2f), color-stop(35%,#101b2f), color-stop(71%,#764e74), color-stop(100%,#ffa9a3));
+    background: url(../img/bg_web4.png) -00px  no-repeat fixed, -webkit-linear-gradient(top, #101b2f 0%,#101b2f 35%,#101b2f 35%,#764e74 71%,#ffa9a3 100%);
+    background: url(../img/bg_web4.png) -00px  no-repeat fixed, -o-linear-gradient(top, #101b2f 0%,#101b2f 35%,#101b2f 35%,#764e74 71%,#ffa9a3 100%);
+    background: url(../img/bg_web4.png) -00px  no-repeat fixed, -ms-linear-gradient(top, #101b2f 0%,#101b2f 35%,#101b2f 35%,#764e74 71%,#ffa9a3 100%);
+    background: url(../img/bg_web4.png) -00px  no-repeat fixed, linear-gradient(to bottom, #101b2f 0%,#101b2f 35%,#101b2f 35%,#764e74 71%,#ffa9a3 100%);
+    background: url(../img/bg_web4.png) -00px  no-repeat fixed, filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101b2f', endColorstr='#ffa9a3',GradientType=0 );
 }
 
 main {
@@ -184,7 +184,7 @@ li.event{
 .sponsor-logos img{
     padding:1.5em;
 }
-/*///////////////////////////////////////*/
+/*//////////////////////////////////////////*/
 
 
 html {
@@ -400,11 +400,11 @@ nav a:hover {
         letter-spacing: -0.04em;
     }
 
-    body{
-        background-position:  90%;
+    ody{
+        background-position:  75%;;
     }
 
-    .event-details h3{
+    ..event-details h3{
         font-size: 2em;
     }
 
@@ -419,7 +419,10 @@ nav a:hover {
     .oldie nav a {
         margin: 0 0.7%;
     }
-}
+
+body {
+    background-position: 79%;;
+}}
 
 @media only screen and (min-width: 768px) {
 
@@ -437,11 +440,11 @@ nav a:hover {
         font-size: 3em;
     }
 
-    body{
-        background-position:  20%;
+    ody{
+        background-position:  55%;;
     }
 
-    .header-container,
+    ..header-container,
     .main aside {
         -webkit-box-shadow: 0 5px 10px #aaa;
            -moz-box-shadow: 0 5px 10px #aaa;
