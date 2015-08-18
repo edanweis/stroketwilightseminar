@@ -368,6 +368,7 @@ nav a:hover {
 
     body{
         background-position:  90%;
+        
     }
 }
 
@@ -437,7 +438,7 @@ nav a:hover {
     }
 
     body{
-        background-position:  120%;
+        background-position:  20%;
     }
 
     .header-container,
@@ -488,7 +489,7 @@ nav a:hover {
     }
 
     body{
-        background-position:  -800px;
+        background-position:  00px;
     }
 
     .wrapper {
