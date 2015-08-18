@@ -13,13 +13,13 @@ body {
     -o-background-size: cover;
     background-size: cover;
     background: #101b2f;
-    background: url(../img/bg_web2.png) -00px  no-repeat fixed, -moz-linear-gradient(top, #101b2f 0%, #101b2f 35%, #101b2f 35%, #764e74 71%, #ffa9a3 100%);
-    background: url(../img/bg_web2.png) -00px  no-repeat fixed, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#101b2f), color-stop(35%,#101b2f), color-stop(35%,#101b2f), color-stop(71%,#764e74), color-stop(100%,#ffa9a3));
-    background: url(../img/bg_web2.png) -00px  no-repeat fixed, -webkit-linear-gradient(top, #101b2f 0%,#101b2f 35%,#101b2f 35%,#764e74 71%,#ffa9a3 100%);
-    background: url(../img/bg_web2.png) -00px  no-repeat fixed, -o-linear-gradient(top, #101b2f 0%,#101b2f 35%,#101b2f 35%,#764e74 71%,#ffa9a3 100%);
-    background: url(../img/bg_web2.png) -00px  no-repeat fixed, -ms-linear-gradient(top, #101b2f 0%,#101b2f 35%,#101b2f 35%,#764e74 71%,#ffa9a3 100%);
-    background: url(../img/bg_web2.png) -00px  no-repeat fixed, linear-gradient(to bottom, #101b2f 0%,#101b2f 35%,#101b2f 35%,#764e74 71%,#ffa9a3 100%);
-    background: url(../img/bg_web2.png) -00px  no-repeat fixed, filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101b2f', endColorstr='#ffa9a3',GradientType=0 );
+    background: url(../img/bg_web3.png) -00px  no-repeat fixed, -moz-linear-gradient(top, #101b2f 0%, #101b2f 35%, #101b2f 35%, #764e74 71%, #ffa9a3 100%);
+    background: url(../img/bg_web3.png) -00px  no-repeat fixed, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#101b2f), color-stop(35%,#101b2f), color-stop(35%,#101b2f), color-stop(71%,#764e74), color-stop(100%,#ffa9a3));
+    background: url(../img/bg_web3.png) -00px  no-repeat fixed, -webkit-linear-gradient(top, #101b2f 0%,#101b2f 35%,#101b2f 35%,#764e74 71%,#ffa9a3 100%);
+    background: url(../img/bg_web3.png) -00px  no-repeat fixed, -o-linear-gradient(top, #101b2f 0%,#101b2f 35%,#101b2f 35%,#764e74 71%,#ffa9a3 100%);
+    background: url(../img/bg_web3.png) -00px  no-repeat fixed, -ms-linear-gradient(top, #101b2f 0%,#101b2f 35%,#101b2f 35%,#764e74 71%,#ffa9a3 100%);
+    background: url(../img/bg_web3.png) -00px  no-repeat fixed, linear-gradient(to bottom, #101b2f 0%,#101b2f 35%,#101b2f 35%,#764e74 71%,#ffa9a3 100%);
+    background: url(../img/bg_web3.png) -00px  no-repeat fixed, filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101b2f', endColorstr='#ffa9a3',GradientType=0 );
 }
 
 main {
